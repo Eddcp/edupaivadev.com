@@ -1,3 +1,4 @@
+import Footer from 'components/Footer'
 import Header from 'components/Header'
 import { ReactChild, ReactChildren } from 'react'
 
@@ -7,9 +8,10 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <section>
+    <section className="text-white">
       <Header />
       <main>{children}</main>
+      <Footer />
     </section>
   )
 }
