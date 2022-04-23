@@ -1,7 +1,7 @@
 const Main = () => (
   <>
     <h1>Test</h1>
-    <div>
+    <p className="text-white">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum
       nulla vulputate magna blandit bibendum. Integer sed tincidunt augue. Cras
       quam ante, pellentesque at placerat sed, maximus eu metus. Pellentesque
@@ -26,7 +26,7 @@ const Main = () => (
       leo vehicula interdum ac fermentum nibh. Integer maximus id quam eget
       lacinia. Nulla iaculis lorem magna, eu molestie nulla malesuada vel. In
       euismod enim non arcu consequat euismod.
-    </div>
+    </p>
   </>
 )
 

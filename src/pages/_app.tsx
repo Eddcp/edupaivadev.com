@@ -1,3 +1,4 @@
+import Layout from 'components/Layout'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import '../styles/globals.css'
@@ -14,7 +15,9 @@ function App({ Component, pageProps }: AppProps) {
           content="A Simple project starter to work with Typescript, React, NextJS, Jest, React-testing-library"
         />
       </Head>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   )
 }
