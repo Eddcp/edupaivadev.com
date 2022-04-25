@@ -10,7 +10,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <section className="text-white">
       <Header />
-      <main>{children}</main>
+      <main className="layout">{children}</main>
       <Footer />
     </section>
   )

@@ -1,7 +1,7 @@
 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
     font-family: "Bw Gradual";
@@ -29,4 +29,10 @@
     src: url("/fonts/bw-gradual/woff/BwGradual-Bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
+}
+
+@layer base {
+    .layout {
+        @apply mx-auto w-10/12;
+    }
 }

@@ -1,4 +1,4 @@
-const links = [
+const navBarLinks = [
   {
     label: 'Home',
     url: '/'
@@ -12,9 +12,9 @@ const links = [
     url: '/afiliate'
   },
   {
-    label: 'Posts',
-    url: '/posts'
+    label: 'Blog',
+    url: '/blog'
   }
 ]
 
-export default links
+export default navBarLinks
