@@ -1,32 +1,31 @@
+import Image from 'next/image'
+
 const Main = () => (
   <>
-    <h1>Test</h1>
-    <p className="text-white">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum
-      nulla vulputate magna blandit bibendum. Integer sed tincidunt augue. Cras
-      quam ante, pellentesque at placerat sed, maximus eu metus. Pellentesque
-      sit amet ligula aliquam, ornare nisi quis, volutpat orci. Sed lobortis
-      massa eget neque consectetur scelerisque. Nullam mi urna, scelerisque sed
-      ex in, ullamcorper condimentum nisl. Donec consequat facilisis nulla,
-      sagittis tincidunt nisi volutpat a. Mauris egestas nunc iaculis magna
-      convallis, quis euismod sapien varius. Nulla at varius orci. Suspendisse
-      est metus, accumsan a dignissim nec, sagittis vel lacus. Proin nec arcu
-      iaculis, accumsan dui vitae, placerat nisl. Pellentesque pharetra, sapien
-      sit amet rutrum facilisis, eros lorem posuere arcu, eget sollicitudin nisl
-      elit ut risus. Sed blandit convallis pharetra. Suspendisse urna tortor,
-      rhoncus nec sem eget, blandit ullamcorper nisl. Quisque aliquet dignissim
-      felis ac mattis. Proin ornare feugiat turpis quis hendrerit. Maecenas
-      vitae fringilla velit. In hac habitasse platea dictumst. Donec vitae
-      finibus turpis. Interdum et malesuada fames ac ante ipsum primis in
-      faucibus. Curabitur dignissim risus et quam aliquam dapibus ut vitae
-      augue. Nullam non ex dignissim erat egestas pulvinar non eget risus. Nulla
-      malesuada lacus laoreet finibus auctor. Orci varius natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sit amet
-      neque feugiat, condimentum dolor in, consectetur sem. Maecenas at nisl id
-      leo vehicula interdum ac fermentum nibh. Integer maximus id quam eget
-      lacinia. Nulla iaculis lorem magna, eu molestie nulla malesuada vel. In
-      euismod enim non arcu consequat euismod.
-    </p>
+    <section className="py-20">
+      <div className="flex flex-col-reverse justify-between lg:flex-row">
+        <div className="flex flex-col items-center">
+          <h1 className="text-3xl font-bold">
+            Desenvolvimento pessoal, profissional e financeiro.
+          </h1>
+          <p className="text-white">
+            Meu nome é Eduardo Paiva e atuo como desenvolvedor há 10 anos. Desde
+            cedo na carreira percebi a ironia e dificuldade da classe de se
+            desenvolver para além do campo técnico. Aqui você encontra
+            informação e formação em tecnologia, cultura, entretenimento,
+            independência financeira e liberdade geográfica.
+          </p>
+        </div>
+        <div className="flex justify-center items-center">
+          <Image
+            src="/img/3dlogo.png"
+            alt="logo 3d"
+            width="1000"
+            height="1000"
+          />
+        </div>
+      </div>
+    </section>
   </>
 )
 

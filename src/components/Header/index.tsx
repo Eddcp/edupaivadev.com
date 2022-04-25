@@ -4,10 +4,10 @@ import Image from 'next/image'
 import MobileMenu from 'components/MobileMenu'
 
 const Header = () => (
-  <header className="overflow-x-hidden bg-secondary">
+  <header className="bg-secondary">
     <div className="flex justify-between items-center layout">
       <Link href="/" aria-label="Logo">
-        <div>
+        <div className="py-5">
           <Image src="/img/logo.svg" alt="me" width="64" height="64" />
         </div>
       </Link>

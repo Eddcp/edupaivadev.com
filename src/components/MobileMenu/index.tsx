@@ -45,7 +45,7 @@ const MobileMenu = () => {
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <div className="flex justify-between mt-6 layout">
+        <div className="flex justify-between mt-5 layout">
           <nav className="h-full">
             <ul>
               {links.map((link, index) => (
@@ -58,7 +58,7 @@ const MobileMenu = () => {
           <button
             type="button"
             aria-label="toggle modal"
-            className="w-8 h-8 focus:outline-none cursor-auto"
+            className="mr-1 w-8 h-8 focus:outline-none cursor-auto"
             onClick={onToggleNav}
           >
             <svg
