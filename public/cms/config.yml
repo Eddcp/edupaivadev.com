@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: eddcp/edupaivadev.com
-  base_url: https://edupaivadev.com
+  base_url: https://edupaivadev-com.vercel.app/
   auth_endpoint: api/auth/
 
 publish_mode: editorial_workflow # Isso permite ter aquele workflow com drafts e tudo
