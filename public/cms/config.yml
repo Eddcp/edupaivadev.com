@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: eddcp/edupaivadev.com
+  base_url: https://edupaivadev.com
+  auth_endpoint: api/auth/
+
+publish_mode: editorial_workflow # Isso permite ter aquele workflow com drafts e tudo
+
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+
+collections:
+  - name: posts 
+    label: posts 
+    folder: posts # A pasta onde ficarão os posts
+    create: true # Permite criar um post novo
+    slug: '{{slug}}' # Estrutura do nome arquivo, exemplo: title.md
+    fields: # Os campos do seu frontmatter
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - {
+          label: 'Date',
+          name: 'date',
+          widget: 'datetime',
+          format: 'YYYY-MM-DD hh:mm:ss'
+        }
+      - { label: 'Post Image', name: 'image', widget: 'image', required: false }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+
+      - { label: 'Body', name: 'body', widget: 'markdown' }
