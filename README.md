@@ -1,2 +1,4 @@
-# nextjs-typescript-boilerplate
-Boilerplate for Next.js, Typescript - Made with Next.js + Typescript + ESLint + Prettier + Husky + Lint-Staged + VSCode
+# edupaivadev blog
+
+EN: Personal website for posting about professional, personal and financial development.
+PT-BR: Site pessoal para postagens/tutorias de desenvolvimento profissional, pessoal e financeiro.
