@@ -10,7 +10,7 @@ slug:
   clean_accents: true
 
 media_folder: public/img
-public_folder: /img
+public_folder: public/img
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
