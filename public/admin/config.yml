@@ -4,13 +4,15 @@ backend:
   base_url: https://edupaivadev-com.vercel.app
   auth_endpoint: api/auth/
 
+local_backend: true
+
 publish_mode: editorial_workflow # Isso permite ter aquele workflow com drafts e tudo
 slug:
   encoding: 'ascii'
   clean_accents: true
 
 media_folder: public/img
-public_folder: public/img
+public_folder: /img
 
 collections:
   - name: posts # Used in routes, e.g., /admin/collections/blog
