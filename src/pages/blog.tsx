@@ -1,13 +1,21 @@
-import Link from 'next/link'
+import PostList from 'components/PostList'
+import { getAllPosts } from 'lib/md-client'
 
 const BlogPage = () => (
   <>
     <h2>Blog</h2>
-    <p>teste</p>
-    <Link href="/" passHref>
-      <button>De volta ao blog</button>
-    </Link>
+    <section>
+      <PostList />
+    </section>
   </>
 )
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts(['title', 'date', 'slug', 'author', 'content'])
+
+  return {
+    props: { allPosts }
+  }
+}
 
 export default BlogPage
