@@ -1,22 +1,7 @@
 ---
-layout: post
-date: '2020-04-22 06:04:15'
-image: /assets/img/reveal-cover.png
-title: Criando uma animação de Reveal Block com CSS
-description: >-
-  Como fazer um efeito de mostrar um bloco e então revelar o conteúdo por trás
-  com CSS.
-introduction: >-
-  Como fazer um efeito de mostrar um bloco e então revelar o conteúdo por trás
-  com CSS.
-twitter_text: >-
-  Como fazer um efeito de mostrar um bloco e então revelar o conteúdo por trás
-  com CSS.
-main-class: css
-color: '#2DA0C3'
-tags:
-  - css
-  - videos
-categories:
-  - Dicas de CSS
+layout: blog
+title: Impermanência
+date: 2022-05-02T22:02:55.195Z
+thumbnail: https://images.unsplash.com/photo-1558932130-308a12148740?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXBoZW1lcmFsfGVufDB8fDB8fA%3D%3D&w=1000&q=80
 ---
+Teste
