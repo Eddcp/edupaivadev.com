@@ -37,9 +37,7 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
 
 export function getAllPosts(fields: string[] = []) {
   const slugs = fs.readdirSync(postsDirectory)
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug, fields))
-    .sort((post1, post2) => (post1!.date > post2!.date ? -1 : 1))
-
+  const posts = slugs.map((slug) => getPostBySlug(slug, fields))
+  // .sort((post1, post2) => (post1.date > post2.date ? -1 : 1)) sort later
   return posts
 }
