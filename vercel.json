@@ -1,7 +1,4 @@
 {
   "version": 2,
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/admin", "status": 308, "dest": "/admin/" }
-  ]
+  "trailingSlash": true
 }
