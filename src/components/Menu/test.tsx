@@ -17,7 +17,7 @@ const links = [
   { label: 'Home', url: '/' },
   { label: 'Afiliados', url: '/afiliate' },
   { label: 'Sobre Mim', url: '/about' },
-  { label: 'Posts', url: '/posts' }
+  { label: 'Blog', url: '/blog' }
 ]
 
 describe('', () => {
