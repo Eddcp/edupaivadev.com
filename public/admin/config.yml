@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: eddcp/edupaivadev.com
+  repo: Eddcp/edupaivadev.com
   base_url: https://edupaivadev-com.vercel.app
   auth_endpoint: api/auth/
 
@@ -23,6 +23,6 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Date", name: "date", widget: "datetime", format: 'YYYY-MM-DD hh:mm:ss'}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
