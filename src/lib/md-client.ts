@@ -26,12 +26,12 @@ export function getPostBySlug(slug: string, fields: string[] = []): Items {
       items[field] = content
     }
 
-    if (field === 'date') {
-      items[field] = data.date.toString()
-    }
-
     if (typeof data[field] !== 'undefined') {
       items[field] = data[field]
+    }
+
+    if (field === 'date') {
+      items[field] = data.date.toString()
     }
   })
 
