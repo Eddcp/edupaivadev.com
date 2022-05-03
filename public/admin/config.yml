@@ -1,8 +1,9 @@
 backend:
   name: github
-  repo: Eddcp/edupaivadev.com
+  repo: eddcp/edupaivadev.com
   base_url: https://edupaivadev-com.vercel.app
   auth_endpoint: api/auth/
+  branch: main
 
 local_backend: true
 
