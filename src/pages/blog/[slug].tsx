@@ -1,6 +1,6 @@
 import BlogPostTemplate from 'templates/BlogPostTemplate'
 import { getPostBySlug, getAllPosts } from 'lib/md-client'
-import { BlogPostItem } from 'types/post'
+import BlogPostItem from 'types/post'
 import markdownToHtml from 'lib/markdownToHtml'
 
 type Params = {

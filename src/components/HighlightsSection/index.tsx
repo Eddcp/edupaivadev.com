@@ -1,13 +1,16 @@
-const HighlightsSection = () => (
+import PostList from 'components/PostList'
+import BlogPostItem from 'types/post'
+
+/* TODO duplicated code - improve it*/
+type Props = {
+  posts: BlogPostItem[]
+}
+
+const HighlightsSection = ({ posts }: Props) => (
   <section className="grid grid-cols-3 gap-1">
     <article className="col-span-3 lg:col-span-2">
-      <h2 className="text-2xl font-bold uppercase">Destaque</h2>
-      <div className="grid grid-cols-2 gap-2 mt-4">
-        <div className="h-12 bg-brand">1</div>
-        <div className="h-12 bg-brand">2</div>
-        <div className="h-12 bg-brand">3</div>
-        <div className="h-12 bg-brand">4</div>
-      </div>
+      <h2 className="text-2xl font-bold uppercase">Destaques</h2>
+      <PostList posts={posts} className="grid grid-cols-2 gap-2 mt-4" />
     </article>
     <div className="hidden lg:block">
       <aside>

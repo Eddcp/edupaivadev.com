@@ -1,12 +1,13 @@
-export type BlogPostItem = {
+type BlogPostItem = {
   slug: string
   title: string
-  wordCount: number
-  readingTime: string
   content: string
   date: string
-  coverImage: string
+  author: string
+  thumbnail: string
 }
+
+export default BlogPostItem
 
 export type BlogPost = {
   post: BlogPostItem
