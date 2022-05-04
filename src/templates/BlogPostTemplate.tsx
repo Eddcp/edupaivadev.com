@@ -2,8 +2,9 @@ import { BlogPost } from 'types/post'
 
 const BlogPostTemplate = ({ post }: BlogPost) => {
   return (
-    <article>
-      <h2>{post.title}</h2>
+    <article className="markdown">
+      <h1>{post.title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: post.content }} />
     </article>
   )
 }

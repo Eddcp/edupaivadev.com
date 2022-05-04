@@ -8,7 +8,12 @@ const Header = () => (
     <div className="flex justify-between items-center layout">
       <Link href="/" aria-label="Logo">
         <div className="py-5">
-          <Image src="/img/logo.svg" alt="me" width="64" height="64" />
+          <Image
+            src="/img/logo.svg"
+            alt="logo edupaivadev"
+            width="300"
+            height="68"
+          />
         </div>
       </Link>
       <Menu />

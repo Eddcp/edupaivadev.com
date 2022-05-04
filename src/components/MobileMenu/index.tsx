@@ -61,6 +61,7 @@ const MobileMenu = () => {
             className="mr-1 w-8 h-8 focus:outline-none cursor-auto"
             onClick={onToggleNav}
           >
+            {/* SVG from heroicons */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-6 h-6"
