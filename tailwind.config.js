@@ -17,7 +17,8 @@ module.exports = {
         title: ['Bw Gradual', 'Open Sans', ...defaultTheme.fontFamily.sans]
       },
       colors: {
-        brand: '#FF0043'
+        brand: '#FF0043',
+        neutral: '#E9E7F5'
       }
     }
   },

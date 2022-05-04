@@ -8,7 +8,7 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <section className="text-white">
+    <section className="text-neutral">
       <Header />
       <main className="layout">{children}</main>
       <Footer />
