@@ -20,9 +20,6 @@ module.exports = {
         brand: '#FF0043',
         neutral: '#E9E7F5',
         'custom-black': '#1E1E26'
-      },
-      zIndex: {
-        '-1': '-1'
       }
     }
   },
