@@ -7,7 +7,7 @@ type Props = {
 }
 
 const HighlightsSection = ({ posts }: Props) => (
-  <section className="grid grid-cols-3 gap-1">
+  <section className="grid grid-cols-3 gap-1 mt-20">
     <article className="col-span-3 lg:col-span-2">
       <h2 className="text-2xl font-bold uppercase">Destaques</h2>
       <PostList posts={posts} className="grid grid-cols-2 gap-2 mt-4" />

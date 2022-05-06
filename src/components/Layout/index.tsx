@@ -10,7 +10,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <section className="text-neutral">
       <Header />
-      <main className="layout">{children}</main>
+      <main>{children}</main>
       <Footer />
     </section>
   )
