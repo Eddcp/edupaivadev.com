@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Antarctican Mono';
+    src: url('AntarcticanMono-BoldItalic.eot');
+    src: local('Antarctican Mono Bold Italic'), local('AntarcticanMono-BoldItalic'),
+        url('AntarcticanMono-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AntarcticanMono-BoldItalic.woff2') format('woff2'),
+        url('AntarcticanMono-BoldItalic.woff') format('woff'),
+        url('AntarcticanMono-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Antarctican Mono';
+    src: url('AntarcticanMono-Medium.eot');
+    src: local('Antarctican Mono Medium'), local('AntarcticanMono-Medium'),
+        url('AntarcticanMono-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AntarcticanMono-Medium.woff2') format('woff2'),
+        url('AntarcticanMono-Medium.woff') format('woff'),
+        url('AntarcticanMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antarctican Mono';
+    src: url('AntarcticanMono-SemiBold.eot');
+    src: local('Antarctican Mono SemiBold'), local('AntarcticanMono-SemiBold'),
+        url('AntarcticanMono-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('AntarcticanMono-SemiBold.woff2') format('woff2'),
+        url('AntarcticanMono-SemiBold.woff') format('woff'),
+        url('AntarcticanMono-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antarctican Mono';
+    src: url('AntarcticanMono-SemiBoldItalic.eot');
+    src: local('Antarctican Mono SemiBold Italic'), local('AntarcticanMono-SemiBoldItalic'),
+        url('AntarcticanMono-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AntarcticanMono-SemiBoldItalic.woff2') format('woff2'),
+        url('AntarcticanMono-SemiBoldItalic.woff') format('woff'),
+        url('AntarcticanMono-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Antarctican Mono Book';
+    src: url('AntarcticanMono-Book.eot');
+    src: local('Antarctican Mono Book'), local('AntarcticanMono-Book'),
+        url('AntarcticanMono-Book.eot?#iefix') format('embedded-opentype'),
+        url('AntarcticanMono-Book.woff2') format('woff2'),
+        url('AntarcticanMono-Book.woff') format('woff'),
+        url('AntarcticanMono-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antarctican Mono Book';
+    src: url('AntarcticanMono-BookItalic.eot');
+    src: local('Antarctican Mono Book Italic'), local('AntarcticanMono-BookItalic'),
+        url('AntarcticanMono-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('AntarcticanMono-BookItalic.woff2') format('woff2'),
+        url('AntarcticanMono-BookItalic.woff') format('woff'),
+        url('AntarcticanMono-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Antarctican Mono';
+    src: url('AntarcticanMono-Bold.eot');
+    src: local('Antarctican Mono Bold'), local('AntarcticanMono-Bold'),
+        url('AntarcticanMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AntarcticanMono-Bold.woff2') format('woff2'),
+        url('AntarcticanMono-Bold.woff') format('woff'),
+        url('AntarcticanMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antarctican Mono';
+    src: url('AntarcticanMono-MediumItalic.eot');
+    src: local('Antarctican Mono Medium Italic'), local('AntarcticanMono-MediumItalic'),
+        url('AntarcticanMono-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('AntarcticanMono-MediumItalic.woff2') format('woff2'),
+        url('AntarcticanMono-MediumItalic.woff') format('woff'),
+        url('AntarcticanMono-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+

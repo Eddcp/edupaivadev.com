@@ -5,7 +5,7 @@ import MobileMenu from 'components/MobileMenu'
 
 const Header = () => (
   <header className="bg-secondary">
-    <div className="flex justify-between items-center layout">
+    <div className="flex justify-between items-center text-lg layout">
       <Link href="/" aria-label="Logo">
         <a className="py-5">
           <Image

@@ -31,50 +31,38 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Antarctican Mono";
+    src: url("/fonts/antarctician-mono/woff/AntarcticanMono-Book.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Antarctican Mono";
+    src: url("/fonts/antarctician-mono/woff/AntarcticanMono-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Antarctican Mono";
+    src: url("/fonts/antarctician-mono/woff/AntarcticanMono-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Antarctican Mono";
+    src: url("/fonts/antarctician-mono/woff/AntarcticanMono-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 @layer base {
     .layout {
         @apply mx-auto w-10/12;
     }
 }
-
-/** Start Fade In **/
-[data-fade] {
-    @apply translate-y-10 opacity-0 transition duration-[400ms] ease-out motion-reduce:translate-y-0 motion-reduce:opacity-100;
-}
-
-.fade-in-start [data-fade] {
-    @apply translate-y-0 opacity-100;
-}
-
-.fade-in-start [data-fade='1'] {
-    transition-delay: 100ms;
-}
-
-.fade-in-start [data-fade='2'] {
-    transition-delay: 200ms;
-}
-
-.fade-in-start [data-fade='3'] {
-    transition-delay: 300ms;
-}
-
-.fade-in-start [data-fade='4'] {
-    transition-delay: 400ms;
-}
-
-.fade-in-start [data-fade='5'] {
-    transition-delay: 500ms;
-}
-
-.fade-in-start [data-fade='6'] {
-    transition-delay: 600ms;
-}
-
-.fade-in-start [data-fade='7'] {
-    transition-delay: 700ms;
-}
-
-.fade-in-start [data-fade='8'] {
-    transition-delay: 800ms;
-}
-/** End Fade In **/

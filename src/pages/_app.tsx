@@ -1,8 +1,8 @@
 import Layout from 'components/Layout'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
-import '../styles/globals.css'
-import '../styles/markdown.css'
+import '@/styles/globals.css'
+import '@/styles/markdown.css'
 
 function App({ Component, pageProps }: AppProps) {
   return (

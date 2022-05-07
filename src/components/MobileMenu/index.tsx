@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-import links from './../../utils/navBarLinks'
+import links from '@/utils/navBarLinks'
 
 const MobileMenu = () => {
   const [isOpen, setOpen] = useState(false)
