@@ -33,6 +33,7 @@ const ContactForm = () => {
           <input
             type="text"
             id="name"
+            name="name"
             className="peer w-full h-10 border-2 focus:border-red-500 focus:outline-none transition-colors"
             required
             placeholder=" "
@@ -49,6 +50,7 @@ const ContactForm = () => {
           <input
             type="email"
             id="email"
+            name="email"
             className="peer pl-2 w-full h-10 border-2 focus:border-red-500 focus:outline-none transition-colors"
             required
             placeholder=" "
@@ -64,6 +66,7 @@ const ContactForm = () => {
         <div className="relative col-span-2">
           <textarea
             id="message"
+            name="message"
             className="peer w-full h-full border-2 focus:border-red-500 focus:outline-none transition-colors"
             rows={5}
             required
