@@ -1,41 +1,46 @@
+import axios from 'axios'
 import { useState, ChangeEvent } from 'react'
 
 const ContactForm = () => {
-  const [inputs, setInputs] = useState({
-    name: '',
-    email: '',
-    message: ''
-  })
-
   const [form, setForm] = useState('')
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
   ) => {
-    console.log(e)
     const { value, name } = e.target
     setForm(Object.assign({}, form, { [name]: value }))
+  }
+
+  const onSubmitForm = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    try {
+      await axios.post('/api/contact', form)
+      alert('Success!')
+    } catch (error) {
+      alert('An error ocurred')
+    }
   }
 
   return (
     <form
       aria-label="contact-form"
       name="contact-form"
-      className="text-custom-black"
+      className="mt-5 text-custom-black lg:mt-0"
+      onSubmit={onSubmitForm}
     >
       <div className="grid grid-cols-2 gap-6">
         <div className="relative col-span-2 lg:col-span-1">
           <input
             type="text"
-            id="form-name"
-            value={inputs.name}
+            id="name"
             className="peer w-full h-10 border-2 focus:border-red-500 focus:outline-none transition-colors"
             required
+            placeholder=" "
             onChange={handleChange}
           />
           <label
-            htmlFor="form-name"
-            className="absolute top-2 peer-focus:-top-4 left-2 peer-focus:left-0 text-sm peer-focus:text-xs peer-focus:text-white transition-all cursor-text"
+            htmlFor="name"
+            className="absolute peer-placeholder-shown:top-2 -top-4 peer-focus:-top-4 peer-placeholder-shown:left-2 left-1 peer-focus:left-1 peer-placeholder-shown:text-sm text-xs peer-focus:text-xs peer-placeholder-shown:text-black text-white peer-focus:text-white transition-all duration-200 ease-in-out cursor-text"
           >
             Nome
           </label>
@@ -43,31 +48,31 @@ const ContactForm = () => {
         <div className="relative col-span-2 lg:col-span-1">
           <input
             type="email"
-            id="form-email"
-            value={inputs.email}
+            id="email"
             className="peer pl-2 w-full h-10 border-2 focus:border-red-500 focus:outline-none transition-colors"
             required
+            placeholder=" "
             onChange={handleChange}
           />
           <label
-            htmlFor="form-email"
-            className="absolute top-2 peer-focus:-top-4 left-2 peer-focus:left-0 text-sm peer-focus:text-xs peer-focus:text-white transition-all cursor-text"
+            htmlFor="email"
+            className="absolute peer-placeholder-shown:top-2 -top-4 peer-focus:-top-4 peer-placeholder-shown:left-2 left-1 peer-focus:left-1 peer-placeholder-shown:text-sm text-xs peer-focus:text-xs peer-placeholder-shown:text-black text-white peer-focus:text-white transition-all duration-200 ease-in-out cursor-text"
           >
             Email
           </label>
         </div>
         <div className="relative col-span-2">
           <textarea
-            id="form-message"
-            value={inputs.message}
+            id="message"
             className="peer w-full h-full border-2 focus:border-red-500 focus:outline-none transition-colors"
             rows={5}
             required
+            placeholder=" "
             onChange={handleChange}
           />
           <label
-            htmlFor="form-message"
-            className="absolute top-2 peer-focus:-top-4 left-2 peer-focus:left-0 text-sm peer-focus:text-xs peer-focus:text-white transition-all cursor-text"
+            htmlFor="message"
+            className="absolute peer-placeholder-shown:top-2 -top-4 peer-focus:-top-4 peer-placeholder-shown:left-2 left-1 peer-focus:left-1 peer-placeholder-shown:text-sm text-xs peer-focus:text-xs peer-placeholder-shown:text-black text-white peer-focus:text-white transition-all duration-200 ease-in-out cursor-text"
           >
             Mensagem
           </label>

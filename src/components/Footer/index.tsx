@@ -7,8 +7,8 @@ const Footer = () => {
   const { width } = useWindowSize()
 
   return (
-    <footer className="mt-10">
-      <div className="layout">
+    <footer>
+      <div className="mt-10 layout">
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:mx-auto lg:w-[85%]">
           <div className="flex flex-col text-left">
             <div className="relative">
