@@ -2,13 +2,13 @@ import Image from 'next/image'
 
 const HeroSection = () => (
   <>
-    <section className="lg:mt-20 fade-in-start">
+    <section className="lg:mt-20">
       <div className="flex flex-col-reverse justify-between lg:flex-row lg:mx-auto lg:w-[85%] ">
         <div className="flex flex-col items-center text-left">
-          <h1 data-fade="1" className="text-3xl font-bold sm:text-5xl lg:mt-20">
+          <h1 className="text-3xl font-bold sm:text-5xl lg:mt-20">
             Desenvolvimento pessoal, profissional e financeiro.
           </h1>
-          <p data-fade="2" className="mt-6 text-base text-white sm:text-lg">
+          <p className="mt-6 text-base text-white sm:text-lg">
             Meu nome é Eduardo Paiva e atuo como desenvolvedor há mais de 5
             anos. Desde cedo na carreira percebi a ironia e dificuldade da
             classe de se desenvolver para além do campo técnico. Aqui você
