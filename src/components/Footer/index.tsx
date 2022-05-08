@@ -2,6 +2,7 @@ import ContactForm from 'components/ContactForm'
 import Image from 'next/image'
 import useWindowSize from '@/hooks/useWindowSize'
 import SizeHelper from '@/utils/sizeHelper'
+import SocialLinks from '../SocialLinks'
 
 const Footer = () => {
   const { width } = useWindowSize()
@@ -25,6 +26,7 @@ const Footer = () => {
               disruptivos. Quebre o código, a fronteira, seus limites e
               limitações.
             </p>
+            <SocialLinks />
           </div>
           <div className="lg:px-12">
             <p className="mt-12 text-lg font-semibold">
