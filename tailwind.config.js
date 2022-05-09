@@ -25,9 +25,13 @@ module.exports = {
       colors: {
         brand: '#FF0043',
         neutral: '#E9E7F5',
-        'custom-black': '#1E1E26'
+        'custom-black': '#1E1E26',
+        current: '#FF0043'
       }
     }
+  },
+  variants: {
+    fill: ['hover', 'focus']
   },
   plugins: [require('@tailwindcss/typography')]
 }

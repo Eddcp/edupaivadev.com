@@ -68,7 +68,7 @@ const ContactForm = () => {
             id="message"
             name="message"
             className="peer w-full h-full border-2 focus:border-red-500 focus:outline-none transition-colors"
-            rows={5}
+            rows={4}
             required
             placeholder=" "
             onChange={handleChange}

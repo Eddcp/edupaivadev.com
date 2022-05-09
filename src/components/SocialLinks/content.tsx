@@ -9,7 +9,7 @@ const links = [
   },
   {
     label: 'Youtube',
-    url: 'https://www.youtube.com/WillianJustenCursos/?sub_confirmation=1'
+    url: 'https://www.youtube.com/channel/UCIe4WDJL1aE3yUZbo89TIAg'
   },
   {
     label: 'Instagram',
