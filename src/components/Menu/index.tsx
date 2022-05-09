@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-import links from '@/utils/navBarLinks'
+import links from './../../utils/navBarLinks'
 
 const Menu = () => {
   const router = useRouter()
