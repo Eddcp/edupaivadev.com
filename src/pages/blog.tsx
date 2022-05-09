@@ -1,6 +1,6 @@
 import PostList from 'components/PostList'
 import { getAllPosts } from 'lib/md-client'
-import BlogPostItem from '../types/post'
+import BlogPostItem from '@/types/post'
 
 type Props = {
   allPosts: BlogPostItem[]
