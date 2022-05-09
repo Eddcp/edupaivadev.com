@@ -7,14 +7,19 @@ type Icon = {
   size: number
 }
 
-const SocialLinks = () => (
+type Props = {
+  className?: string
+  size: number
+}
+
+const SocialLinks = ({ className, size }: Props) => (
   <nav>
-    <ul className="flex justify-end items-center">
+    <ul className={`flex justify-between content-start ${className}`}>
       {links.map((link, i) => {
         const icon: Icon = {
           type: link.label,
           url: link.url,
-          size: 8
+          size
         }
         return (
           <li key={i}>

@@ -27,13 +27,15 @@ const SocialIcon = (icon: Icon) => {
 
   return (
     <a
-      className="text-sm text-gray-500 hover:text-gray-600 transition"
+      className="text-sm hover:text-white transition"
       target="_blank"
       rel="noopener noreferrer"
       href={icon.url}
     >
       <span className="sr-only">{icon.type}</span>
-      <SocialSvg className={` h-${icon.size} w-${icon.size}`} />
+      <SocialSvg
+        className={`fill-current hover:fill-white h-${icon.size} w-${icon.size}`}
+      />
     </a>
   )
 }

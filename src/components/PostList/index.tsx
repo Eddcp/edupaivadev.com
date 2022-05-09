@@ -10,7 +10,7 @@ const PostList = ({ posts, className }: Props) => {
   return (
     <ul className={className}>
       {posts?.map((post, index) => (
-        <li key={index}>
+        <li className="col-span-2 sm:col-span-1" key={index}>
           <PostCard
             title={post.title}
             thumbnail={post.thumbnail}

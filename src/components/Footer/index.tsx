@@ -10,8 +10,8 @@ const Footer = () => {
   return (
     <footer>
       <div className="mt-10 layout">
-        <div className="grid grid-cols-1 lg:grid-cols-3 lg:mx-auto lg:w-[85%]">
-          <div className="flex flex-col text-left">
+        <div className="grid grid-cols-1 lg:grid-cols-8 lg:mx-auto lg:w-[85%]">
+          <div className="flex flex-col text-left lg:col-span-2">
             <div className="relative">
               <Image
                 src="/img/logo.svg"
@@ -26,9 +26,11 @@ const Footer = () => {
               disruptivos. Quebre o código, a fronteira, seus limites e
               limitações.
             </p>
-            <SocialLinks />
+            <div className="mt-6">
+              <SocialLinks size={6} className="w-[80%]" />
+            </div>
           </div>
-          <div className="lg:px-12">
+          <div className="lg:col-span-3 lg:px-12">
             <p className="mt-12 text-lg font-semibold">
               Tem alguma sugestão de conteúdo, contribuição ou melhoria que
               deseja compartilhar com a gente?
@@ -39,7 +41,9 @@ const Footer = () => {
               {SizeHelper.isDesktop(width) ? 'ao lado' : 'abaixo'}{' '}
             </p>
           </div>
-          <ContactForm />
+          <div className="lg:col-span-3">
+            <ContactForm />
+          </div>
         </div>
       </div>
       <p className="mt-10 h-12 min-h-full leading-[3rem] text-center bg-secondary">

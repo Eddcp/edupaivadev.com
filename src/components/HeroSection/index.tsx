@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import SocialLinks from '../SocialLinks'
 
 const HeroSection = () => (
   <>
@@ -15,6 +16,9 @@ const HeroSection = () => (
             encontra informação e formação em tecnologia, cultura,
             entretenimento, independência financeira e liberdade geográfica.
           </p>
+          <div className="mt-8 w-full">
+            <SocialLinks className="sm:w-[40%]" size={10} />
+          </div>
         </div>
         <div className="flex justify-center items-center">
           <Image
