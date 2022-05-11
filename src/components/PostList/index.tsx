@@ -8,7 +8,7 @@ type Props = {
 
 const PostList = ({ posts, className }: Props) => {
   return (
-    <ul className={className}>
+    <ol className={className}>
       {posts?.map((post, index) => (
         <li className="col-span-2 sm:col-span-1" key={index}>
           <PostCard
@@ -21,7 +21,7 @@ const PostList = ({ posts, className }: Props) => {
           />
         </li>
       ))}
-    </ul>
+    </ol>
   )
 }
 
