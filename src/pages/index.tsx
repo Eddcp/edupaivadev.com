@@ -2,7 +2,6 @@ import HighlightsSection from 'components/HighlightsSection'
 import HeroSection from 'components/HeroSection'
 import { getAllPosts } from 'lib/md-client'
 import BlogPostItem from 'types/post'
-import Image from 'next/image'
 import TechSection from '@/components/TechSection'
 
 type Props = {
