@@ -7,12 +7,12 @@ type Props = {
 }
 
 const BlogPage = ({ allPosts }: Props) => (
-  <>
+  <section className="layout">
     <h2>Blog</h2>
     <section>
       <PostList posts={allPosts} className="" />
     </section>
-  </>
+  </section>
 )
 
 export const getStaticProps = async () => {
