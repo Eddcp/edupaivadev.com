@@ -9,6 +9,7 @@ type Props = {
 }
 
 export default function Home({ allPosts }: Props) {
+  console.log(allPosts)
   return (
     <>
       <div className="layout">
@@ -40,6 +41,7 @@ export const getStaticProps = async () => {
     'slug',
     'author',
     'content',
+    'categories',
     'thumbnail'
   ])
 

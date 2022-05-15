@@ -22,6 +22,7 @@ export async function getStaticProps({ params }: Params) {
     'date',
     'slug',
     'author',
+    'categories',
     'content'
   ])
   const content = await markdownToHtml(post?.content || '')

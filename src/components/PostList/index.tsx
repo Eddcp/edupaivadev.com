@@ -18,6 +18,7 @@ const PostList = ({ posts, className }: Props) => {
             date={post.date}
             author={post.author}
             content={post.content}
+            categories={post.categories}
           />
         </li>
       ))}

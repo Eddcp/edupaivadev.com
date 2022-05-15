@@ -5,6 +5,7 @@ type BlogPostItem = {
   date: string
   author: string
   thumbnail: string
+  categories?: string[]
 }
 
 export default BlogPostItem
