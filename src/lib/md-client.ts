@@ -2,6 +2,8 @@ import fs from 'fs'
 import { join } from 'path'
 import matter from 'gray-matter'
 
+import { format } from 'date-fns'
+
 const rootDirectory = process.cwd()
 const postsDirectory = join(rootDirectory, 'posts')
 
@@ -17,6 +19,8 @@ export function getPostBySlug(slug: string, fields: string[] = []): Items {
 
   const items: Items = {}
 
+  const dateFormatted = format(new Date(data.date), 'dd/MM/yyyy')
+
   fields.forEach((field) => {
     if (field === 'slug') {
       items[field] = realSlug
@@ -31,7 +35,7 @@ export function getPostBySlug(slug: string, fields: string[] = []): Items {
     }
 
     if (field === 'date') {
-      items[field] = data.date.toString()
+      items[field] = dateFormatted.toString()
     }
   })
 

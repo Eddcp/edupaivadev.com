@@ -20,10 +20,13 @@ collections:
     label: posts # Used in the UI
     folder: posts # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime", format: 'YYYY-MM-DD hh:mm:ss'}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog'}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD hh:mm:ss'}
+      - {label: 'Featured Image', name: 'thumbnail', widget: 'image'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+      - {label: 'Tags', name: 'tags', widget: 'list', default: [''] }
+      - {label: 'Category', name: 'categories', widget: 'list' }
+

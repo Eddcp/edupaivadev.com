@@ -5,6 +5,8 @@ type BlogPostItem = {
   date: string
   author: string
   thumbnail: string
+  categories: string
+  icon?: React.FunctionComponent<React.SVGProps<SVGPolygonElement>>
 }
 
 export default BlogPostItem

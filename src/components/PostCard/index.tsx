@@ -2,17 +2,40 @@ import Image from 'next/image'
 import Link from 'next/link'
 import BlogPostItem from 'types/post'
 
-const PostCard = ({ title, thumbnail, date, author, slug }: BlogPostItem) => {
+const PostCard = ({
+  title,
+  thumbnail,
+  date,
+  categories,
+  slug,
+  icon
+}: BlogPostItem) => {
+  const CategorySvg = icon
   return (
     <div className="lg:block">
-      <Link href={`blog/${slug}`}>
-        <a>
-          <h3>{title}</h3>
-          <Image src={thumbnail} width="500" height="275" />
-          <div>{date}</div>
-          <div>{author}</div>
-        </a>
-      </Link>
+      <div className="flex justify-between">
+        <div>
+          {CategorySvg !== undefined ? (
+            <CategorySvg
+              className={`border-red-600 border-solid border-2 inline-block fill-current h-8 w-8`}
+            />
+          ) : (
+            ''
+          )}
+          <span className="ml-2">{categories}</span>
+        </div>
+        <div>{date}</div>
+      </div>
+      <figure className="relative mt-2">
+        <Link href={`/blog/${slug}`}>
+          <a>
+            <figcaption className="absolute bottom-3 z-[1]">
+              <h3 className="p-3 font-bold uppercase">{title}</h3>
+            </figcaption>
+            <Image src={thumbnail} width="500" height="275" />
+          </a>
+        </Link>
+      </figure>
     </div>
   )
 }
