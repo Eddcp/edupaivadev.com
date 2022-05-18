@@ -9,7 +9,6 @@ type Props = {
 }
 
 export default function Home({ allPosts }: Props) {
-  console.log(allPosts)
   return (
     <>
       <div className="layout">

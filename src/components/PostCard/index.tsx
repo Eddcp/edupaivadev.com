@@ -7,21 +7,32 @@ const PostCard = ({
   thumbnail,
   date,
   categories,
-  slug
+  slug,
+  icon
 }: BlogPostItem) => {
-  console.log(date)
+  const CategorySvg = icon
   return (
     <div className="lg:block">
-      <div className="inline-block">{categories}</div>
-      <div className="inline-block">{date}</div>
-      <figure className="relative">
+      <div className="flex justify-between">
+        <div>
+          {CategorySvg !== undefined ? (
+            <CategorySvg
+              className={`border-red-600 border-solid border-2 inline-block fill-current h-8 w-8`}
+            />
+          ) : (
+            ''
+          )}
+          <span className="ml-2">{categories}</span>
+        </div>
+        <div>{date}</div>
+      </div>
+      <figure className="relative mt-2">
         <Link href={`/blog/${slug}`}>
           <a>
             <figcaption className="absolute bottom-3 z-[1]">
               <h3 className="p-3 font-bold uppercase">{title}</h3>
             </figcaption>
             <Image src={thumbnail} width="500" height="275" />
-            <div>{categories}</div>
           </a>
         </Link>
       </figure>
