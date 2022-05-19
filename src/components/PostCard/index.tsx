@@ -17,7 +17,7 @@ const PostCard = ({
         <div>
           {CategorySvg !== undefined ? (
             <CategorySvg
-              className={`border-red-600 border-solid border-2 inline-block fill-current h-8 w-8`}
+              className={`border-[#FF0043] border-solid border-2 inline-block fill-current h-8 w-8`}
             />
           ) : (
             ''

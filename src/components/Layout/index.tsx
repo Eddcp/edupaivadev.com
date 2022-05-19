@@ -3,7 +3,7 @@ import Header from 'components/Header'
 import { ReactChild, ReactChildren } from 'react'
 
 interface LayoutProps {
-  children: ReactChild | ReactChildren
+  children: ReactChild[] | ReactChildren[]
 }
 
 const Layout = ({ children }: LayoutProps) => {

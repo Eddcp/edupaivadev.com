@@ -27,11 +27,11 @@ const TechSection = () => (
   <section className="mt-10 bg-red lg:mt-28">
     <div className="layout">
       <div className="grid py-16 lg:grid-cols-12 lg:mx-auto lg:w-[85%]">
-        <div className="flex col-span-3 justify-center items-center text-2xl font-bold uppercase">
+        <div className="flex col-span-3 justify-start items-center text-2xl font-bold uppercase">
           Tecnologias
         </div>
         <div className="col-span-9">
-          <ul className="flex flex-row flex-wrap w-full xl:flex-nowrap">
+          <ul className="flex flex-row flex-wrap w-full">
             {techStack.map((techItem, index) => {
               const { label } = techItem
               const TechSvg = components[label]
