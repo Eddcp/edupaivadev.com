@@ -26,13 +26,21 @@ const PostCard = ({
         </div>
         <div>{date}</div>
       </div>
+
       <figure className="relative mt-2">
         <Link href={`/blog/${slug}`}>
           <a>
-            <figcaption className="absolute bottom-3 z-[1]">
-              <h3 className="p-3 font-bold uppercase">{title}</h3>
-            </figcaption>
-            <Image src={thumbnail} width="500" height="275" />
+            <div className="gradient">
+              <figcaption className="absolute bottom-3 z-20">
+                <h3 className="p-3 font-bold uppercase">{title}</h3>
+              </figcaption>
+              <Image
+                src={thumbnail}
+                className="gradient__img"
+                width="500"
+                height="275"
+              />
+            </div>
           </a>
         </Link>
       </figure>
