@@ -66,3 +66,35 @@
         @apply mx-auto w-10/12;
     }
 }
+
+@layer base {
+    .gradient {
+        background: -moz-linear-gradient(-45deg, #1E1E26 0%, #1E1E26 50%, #FF0043 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #1E1E26 0%,#1E1E26 50%,#FF0043 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #1E1E26 0%,#1E1E26 50%, #FF0043 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        background-size: 400% 400%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        transition: all .5s;
+        min-height: 100px;
+        overflow: hidden;
+    }
+
+    .gradient__img {
+        width: 100%;
+        height: 97.5%;
+        position: absolute;
+        z-index: 1;
+        opacity: .8;
+    }
+
+    .gradient:hover {
+        background-position: 100% 100%;
+        opacity: .9;
+        z-index: 10;
+        max-height: 97.5%
+    }
+
+
+}
