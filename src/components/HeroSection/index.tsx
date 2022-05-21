@@ -4,7 +4,7 @@ import SocialLinks from '../SocialLinks'
 const HeroSection = () => (
   <>
     <section className="lg:mt-20">
-      <div className="flex flex-col-reverse justify-between lg:flex-row lg:mx-auto lg:w-[85%] ">
+      <div className="flex flex-col-reverse justify-between lg:flex-row lg:mx-auto lg:w-[85%]">
         <div className="flex flex-col items-center text-left">
           <h1 className="text-3xl font-bold sm:text-5xl lg:mt-20">
             Desenvolvimento pessoal, profissional e financeiro.
