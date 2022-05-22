@@ -40,7 +40,7 @@ console.log(person);
 var person = 'Jon Snow';
 ```
 
-A resposta correta é `undefined`, afinal apenas as declarações são ***hoisted*** e não suas atribuições.
+A resposta correta é undefined, afinal apenas as declarações são ***hoisted*** e não suas atribuições.
 
 - - -
 
