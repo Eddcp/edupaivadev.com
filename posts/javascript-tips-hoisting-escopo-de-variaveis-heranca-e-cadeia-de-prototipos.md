@@ -21,7 +21,7 @@ Quando estava aprendendo a linguagem, um dos conceitos que me causou estranheza 
 
 ### **Hoisting**
 
-As variáveis declaradas com `var`podem ser acessadas antes mesmo de serem de fato declaradas (é, não me pergunte o por que), isso também acontece com funções, o que pode ser bastante útil pois conseguimos chamar uma função antes mesmo de sua declaração, sem a necessidade da criação de protótipos de funções (comumente presentes nas linguagens C/C++). Talvez quando Brendan Eich decidiu criar a linguagem foi uma decisão interessante, mas que abriu a possibilidade pra bastante confusão no código. Segue um exemplo:
+As variáveis declaradas com var podem ser acessadas antes mesmo de serem de fato declaradas (é, não me pergunte o por que), isso também acontece com funções, o que pode ser bastante útil pois conseguimos chamar uma função antes mesmo de sua declaração, sem a necessidade da criação de protótipos de funções (comumente presentes nas linguagens C/C++). Talvez quando Brendan Eich decidiu criar a linguagem foi uma decisão interessante, mas que abriu a possibilidade pra bastante confusão no código. Segue um exemplo:
 
 ```js
 person = 'Jon Snow';
@@ -46,13 +46,13 @@ A resposta correta é `undefined`, afinal apenas as declarações são ***hoiste
 
 ### **Escopo de Variáveis**
 
-Antes do lançamento do ES6, a única maneira de declararmos variáveis no JavaScript era com a palavra reservada `var`**.** Variáveis declaradas com var possuem escopo de função, isto é, quando são declaradas dentro de uma função não podem ser acessadas fora dela, porém quando são declaradas dentro de um bloco podem ser acessadas fora deste, pegue o código abaixo como exemplo:
+Antes do lançamento do ES6, a única maneira de declararmos variáveis no JavaScript era com a palavra reservada var. Variáveis declaradas com var possuem escopo de função, isto é, quando são declaradas dentro de uma função não podem ser acessadas fora dela, porém quando são declaradas dentro de um bloco podem ser acessadas fora deste, pegue o código abaixo como exemplo:
 
 Qual o retorno do ***console.log(i)***? Se você respondeu 3, está correto. Afinal, a variável *i* foi declarada dentro do bloco do *for*, mas como não possui escopo de bloco ela pode ser acessada fora dele. Antigamente para criarmos um escopo de bloco para nossas variáveis era necessário utilizar as IIFE (*[Immediately Invoked Function Expression](https://developer.mozilla.org/pt-BR/docs/Glossario/IIFE)*). No código abaixo, não temos acesso a variável que foi definida dentro da IIFE.
 
 IIFE: A maneira antiga de encapsularmos nossas variáveis
 
-O ES6 introduziu duas novas maneiras de declarar variáveis `let` e `const`**.** Ambas possuem escopo de bloco. Pegue o código anterior, porém vamos substituir a palavra reservada `var` por `let`
+O ES6 introduziu duas novas maneiras de declarar variáveis let e const. Ambas possuem escopo de bloco. Pegue o código anterior, porém vamos substituir a palavra reservada var por let
 
 ![](https://cdn-images-1.medium.com/max/800/1*XVN7Lf5Ia0SYgECMa1fZ0A.png)
 
