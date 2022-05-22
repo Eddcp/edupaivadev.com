@@ -66,7 +66,7 @@ Então as variáveis declaradas utilizando let e const não são ***hoisted***?
 
 Todas declarações (function, var, let, const e class) são hoisted no JavaScript, enquanto declarações utilizando var são inicializadas com **undefined**, as variáveis declaradas com let e const só são inicializadas na linha que a declaração ocorre de fato, antes disso elas permanecem na “*Temporal Dead Zone*”, um tempo entre a criação e sua inicialização onde a variável não pode ser acessada.
 
-Qual dessas declarações devo usar? Uma boa prática é usar o `const` ao invés do let para declarar as variáveis e funções do seu sistema, pois gera uma previsibilidade da sua aplicação, afinal não pode haver uma reatribuição de seus valores. Há poucos usos para o let, que é o caso dos loops, afinal a cada iteração a variável recebe um novo valor. Ainda sim os loops podem ser substituídos pelas alternativas funcionais: **map**, **filter**, **reduce**. Como o ES6 provê essas novas funcionalidades prefira elas ao uso do var.
+Qual dessas declarações devo usar? Uma boa prática é usar o const ao invés do let para declarar as variáveis e funções do seu sistema, pois gera uma previsibilidade da sua aplicação, afinal não pode haver uma reatribuição de seus valores. Há poucos usos para o let, que é o caso dos loops, afinal a cada iteração a variável recebe um novo valor. Ainda sim os loops podem ser substituídos pelas alternativas funcionais: **map**, **filter**, **reduce**. Como o ES6 provê essas novas funcionalidades prefira elas ao uso do var.
 
 - - -
 

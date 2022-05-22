@@ -1,7 +1,6 @@
 import BlogPostTemplate from 'templates/BlogPostTemplate'
 import { getPostBySlug, getAllPosts } from 'lib/md-client'
 import BlogPostItem from 'types/post'
-import markdownToHtml from 'lib/markdownToHtml'
 
 type Params = {
   params: {
@@ -25,7 +24,8 @@ export async function getStaticProps({ params }: Params) {
     'categories',
     'content'
   ])
-  const content = await markdownToHtml(post?.content || '')
+
+  const { content } = post
 
   return {
     props: {
