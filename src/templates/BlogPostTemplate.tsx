@@ -1,6 +1,13 @@
 import { BlogPost } from 'types/post'
 
+import Prism from 'prismjs'
+import { useEffect } from 'react'
+
 const BlogPostTemplate = ({ post }: BlogPost) => {
+  useEffect(() => {
+    Prism.highlightAll()
+  }, [post])
+
   return (
     <article className="layout markdown">
       <h1 className="text-3xl font-bold sm:text-5xl">{post.title}</h1>
