@@ -27,24 +27,6 @@ collections:
       - {label: 'Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD hh:mm:ss'}
       - {label: 'Featured Image', name: 'thumbnail', widget: 'image'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-      - {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'list',
-          fields: {
-            label: tag,
-            name: tag,
-            widget: string
-          } 
-      }
-      - {
-          label: 'Category',
-          name: 'categories',
-          widget: 'list',
-          fields: {
-            label: category,
-            name: category,
-            widget: string
-          }
-      }
+      - {label: 'Tags', name: 'tags', widget: 'list', default: [''] }
+      - {label: 'Category', name: 'categories', widget: 'list' }
 

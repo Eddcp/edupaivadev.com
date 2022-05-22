@@ -4,7 +4,8 @@ title: "Javascript Tips: Hoisting, Escopo de variáveis, Herança e Cadeia de
   Protótipos"
 date: 2022-05-04 02:35:13
 thumbnail: https://images.unsplash.com/photo-1542407931-2fe6d5b417d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-categories: [quebre o código]
+categories:
+  - quebre o código
 tags: [javascript, tecnologia, desenvolvimento profissional]
 ---
 
