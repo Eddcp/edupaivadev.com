@@ -1,8 +1,8 @@
 import PostCard from 'components/PostCard'
 import BlogPostItem from 'types/post'
 
-import CycleSvg from '@/components/PostList/categories-icons/quebre-o-ciclo.svg'
-import CodeSvg from '@/components/PostList/categories-icons/quebre-o-codigo.svg'
+import CycleSvg from '@/../public/img/categories-icons/quebre-o-ciclo.svg'
+import CodeSvg from '@/../public/img/categories-icons/quebre-o-codigo.svg'
 
 type Props = {
   posts: BlogPostItem[]
@@ -28,7 +28,7 @@ const PostList = ({ posts, className }: Props) => {
           .replace('código', 'codigo')
         const CategorySVG = components[svgName]
         return (
-          <li className="col-span-2 my-2 mr-4 sm:col-span-1" key={index}>
+          <li className="col-span-3 my-2 mr-4 sm:col-span-1" key={index}>
             <PostCard
               title={post.title}
               thumbnail={post.thumbnail}

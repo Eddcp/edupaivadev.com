@@ -8,10 +8,14 @@ type Props = {
 
 const BlogPage = ({ allPosts }: Props) => (
   <section className="layout">
-    <h2>Blog</h2>
-    <section>
-      <PostList posts={allPosts} className="" />
+    <h1 className="text-3xl font-bold sm:mt-20 sm:text-5xl">Blog</h1>
+    <h2 className="mt-5 text-xl">
+      Pensamentos, ensinamentos e mais algumas coisas.
+    </h2>
+    <section className="mb-40">
+      <PostList posts={allPosts} className="grid grid-cols-3 gap-2 mt-4" />
     </section>
+    <hr className="h-0.5 bg-red border-none" />
   </section>
 )
 
