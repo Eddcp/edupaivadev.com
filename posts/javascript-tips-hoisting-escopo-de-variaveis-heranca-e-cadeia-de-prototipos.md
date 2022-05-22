@@ -21,7 +21,7 @@ Quando estava aprendendo a linguagem, um dos conceitos que me causou estranheza 
 
 ### **Hoisting**
 
-As variáveis declaradas com `var`podem ser acessadas antes mesmo de serem de fato declaradas (é, não me pergunte o por que), isso também acontece com funções, o que pode ser bastante útil pois conseguimos chamar uma função antes mesmo de sua declaração, sem a necessidade da criação de protótipos de funções (comumente presentes nas linguagens C/C++). Talvez quando Brendan Eich decidiu criar a linguagem foi uma decisão interessante, mas que abriu a possibilidade pra bastante confusão no código. Segue um exemplo:
+As variáveis declaradas com var podem ser acessadas antes mesmo de serem de fato declaradas (é, não me pergunte o por que), isso também acontece com funções, o que pode ser bastante útil pois conseguimos chamar uma função antes mesmo de sua declaração, sem a necessidade da criação de protótipos de funções (comumente presentes nas linguagens C/C++). Talvez quando Brendan Eich decidiu criar a linguagem foi uma decisão interessante, mas que abriu a possibilidade pra bastante confusão no código. Segue um exemplo:
 
 ```js
 person = 'Jon Snow';
@@ -74,9 +74,9 @@ Qual dessas declarações devo usar? Uma boa prática é usar o `const` ao invé
 
 Um dos grandes conceitos da Orientação a Objetos é a herança. Herança é a capacidade de um objeto herdar as propriedades de outro, basicamente é o relacionamento chamado de “é um”. Um cachorro **é um** animal, se criássemos a classe Animal, a classe Cachorro herdaria as propriedades de animal.
 
-A herança no JavaScript é baseada na cadeia de protótipos. Cada objeto possui seu `prototype`. Vamos para um exemplo:
+A herança no JavaScript é baseada na cadeia de protótipos. Cada objeto possui seu prototype. Vamos para um exemplo:
 
-**Animal** é a classe pai, **Dog** e **Lion** são as classes que herdam as propriedades de Animal. Todo objeto herda as propriedades de **Object**, dessa forma como a herança no JavaScript é baseada na cadeia de protótipos, **Animal** aponta para o `prototype` de **Object**, **Dog** e **Lion** apontam para o `prototype` de **Animal**. Assim se temos uma instância de **Dog** e tentamos acessar uma propriedade dentro desse objeto, primeiro ele procura nas propriedades de **Dog**, depois nas propriedades de **Animal** e finalmente nas propriedades de **Object**, essa é a “*Prototype* *Chain*” (Cadeia de protótipos). Conforme pode ser visto na imagem abaixo:
+**Animal** é a classe pai, **Dog** e **Lion** são as classes que herdam as propriedades de Animal. Todo objeto herda as propriedades de **Object**, dessa forma como a herança no JavaScript é baseada na cadeia de protótipos, **Animal** aponta para o prototype de **Object**, **Dog** e **Lion** apontam para o prototype de **Animal**. Assim se temos uma instância de **Dog** e tentamos acessar uma propriedade dentro desse objeto, primeiro ele procura nas propriedades de **Dog**, depois nas propriedades de **Animal** e finalmente nas propriedades de **Object**, essa é a “*Prototype* *Chain*” (Cadeia de protótipos). Conforme pode ser visto na imagem abaixo:
 
 ![](https://cdn-images-1.medium.com/max/800/1*hTFbQV1EGK1o0eycwG0NMQ.png)
 
