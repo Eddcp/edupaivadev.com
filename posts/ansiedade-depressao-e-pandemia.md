@@ -3,10 +3,8 @@ layout: blog
 title: Ansiedade, Depressão e Pandemia
 date: 2022-05-02 10:04:43
 thumbnail: https://images.unsplash.com/photo-1473830394358-91588751b241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGRlcHJlc3NlZHxlbnwwfHwwfHw%3D&w=1000&q=80
-categories:
-	- quebre o ciclo
-tags:
-	- desenvolvimento pessoal
+categories: [quebre o ciclo]
+tags: [desenvolvimento pessoal]
 ---
 Não sei quando você está lendo esse texto, mas os últimos anos têm sido extremamente complicados, em 2020 vimos o mundo entrar em lockdown devido a pandemia do COVID-19 e agora estamos em 2022 ainda em uma situação catastrófica, para completar ainda estamos vivendo a guerra entre Rússia e Ucrânia, um desgoverno de Bolsonaro e uma inflação mundial. Alguém nos ajude
 
