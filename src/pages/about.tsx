@@ -22,9 +22,9 @@ const AboutPage = () => (
             <span className="font-bold">frontend</span> web como tecnologias{' '}
             <span className="font-bold">backend</span>. Dentre essas estão:
             React, NextJS, Jest, SASS, PostCSS, Grunt, Gulp, Webpack, NodeJS,
-            Java, Spring Boot, JUnit, Mockito, PostgreSQL, Oracle, dando
-            manutenção e evoluindo arquitetura monolíticas ou arquitetura de
-            microserviços. Pude trabalhar diretamente com o serviço de cloud
+            Java, Spring Boot, Spring Cloud, JUnit, Mockito, PostgreSQL, Oracle,
+            dando manutenção e evoluindo arquitetura monolíticas ou arquitetura
+            de microsserviços. Pude trabalhar diretamente com o serviço de cloud
             fornecido pela <span className="font-bold">AWS</span> utilizando
             tecnologias como AWS Lambda com Serverless Framework, AWS DynamoDB,
             AWS SQS/SNS, AWS KMS, AWS EC2, AWS ECS.

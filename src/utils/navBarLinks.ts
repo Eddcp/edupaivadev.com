@@ -8,10 +8,6 @@ const navBarLinks = [
     url: '/about'
   },
   {
-    label: 'Afiliados',
-    url: '/afiliate'
-  },
-  {
     label: 'Blog',
     url: '/blog'
   }

@@ -6,7 +6,7 @@ thumbnail: https://images.unsplash.com/photo-1473830394358-91588751b241?ixlib=rb
 categories:
 	- quebre o ciclo
 tags:
-	- javascript
+	- desenvolvimento pessoal
 ---
 Não sei quando você está lendo esse texto, mas os últimos anos têm sido extremamente complicados, em 2020 vimos o mundo entrar em lockdown devido a pandemia do COVID-19 e agora estamos em 2022 ainda em uma situação catastrófica, para completar ainda estamos vivendo a guerra entre Rússia e Ucrânia, um desgoverno de Bolsonaro e uma inflação mundial. Alguém nos ajude
 

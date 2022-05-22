@@ -3,17 +3,20 @@ import HeroSection from 'components/HeroSection'
 import { getAllPosts } from 'lib/md-client'
 import BlogPostItem from 'types/post'
 import TechSection from '@/components/TechSection'
+import { getAllTags } from '@/lib/tags'
 
 type Props = {
   allPosts: BlogPostItem[]
+  allTags: string[]
 }
 
-export default function Home({ allPosts }: Props) {
+export default function Home({ allPosts, allTags }: Props) {
+  console.log('tags', allTags)
   return (
     <>
       <div className="layout">
         <HeroSection />
-        <HighlightsSection posts={allPosts} />
+        <HighlightsSection posts={allPosts} tags={allTags} />
       </div>
       <TechSection />
       <section className="bg-secondary">
@@ -44,7 +47,9 @@ export const getStaticProps = async () => {
     'thumbnail'
   ])
 
+  const allTags = getAllTags()
+  console.log(allTags)
   return {
-    props: { allPosts }
+    props: { allPosts, allTags }
   }
 }
