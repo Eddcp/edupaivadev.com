@@ -4,9 +4,10 @@ title: Impermanência
 date: 2022-05-21 09:31:03
 thumbnail: https://images.unsplash.com/photo-1565589595985-6ae56ab1bea9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469
 tags:
-  - desenvolvimento-pessoal
+  - desenvolvimento pessoal
+  - filosofia
 categories:
-  - quebre-o-ciclo
+  - quebre o ciclo
 ---
 ### Início, meio, fim.
 
