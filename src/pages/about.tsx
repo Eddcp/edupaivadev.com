@@ -14,7 +14,7 @@ const AboutPage = () => (
             height="300"
           />
         </figure>
-        <div className="flex flex-col col-span-4 items-center">
+        <div className="flex flex-col col-span-4 items-start">
           <h1 className="text-3xl font-bold sm:text-5xl">Sobre mim</h1>
           <p className="mt-10">
             Meu nome é Eduardo Costa de Paiva, trabalho com TI há mais de 5
@@ -23,11 +23,12 @@ const AboutPage = () => (
             <span className="font-bold">backend</span>. Dentre essas estão:
             React, NextJS, Jest, SASS, PostCSS, Grunt, Gulp, Webpack, NodeJS,
             Java, Spring Boot, Spring Cloud, JUnit, Mockito, PostgreSQL, Oracle,
-            dando manutenção e evoluindo arquitetura monolíticas ou arquitetura
-            de microsserviços. Pude trabalhar diretamente com o serviço de cloud
-            fornecido pela <span className="font-bold">AWS</span> utilizando
-            tecnologias como AWS Lambda com Serverless Framework, AWS DynamoDB,
-            AWS SQS/SNS, AWS KMS, AWS EC2, AWS ECS.
+            dando manutenção e evoluindo arquiteturas monolíticas e/ou
+            arquitetura de microsserviços. Pude trabalhar diretamente com o
+            serviço de cloud fornecido pela{' '}
+            <span className="font-bold">AWS</span> utilizando tecnologias como
+            AWS Lambda com Serverless Framework, AWS DynamoDB, AWS SQS/SNS, AWS
+            KMS, AWS EC2, AWS ECS, AWS S3.
           </p>
           <p className="mt-5">
             No meu tempo livre gosto muito de ler livros sobre desenvolvimento
@@ -46,6 +47,7 @@ const AboutPage = () => (
         </div>
       </div>
     </section>
+    <hr className="h-0.5 bg-red border-none layout" />
   </>
 )
 

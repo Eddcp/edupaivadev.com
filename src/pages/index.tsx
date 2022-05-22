@@ -11,7 +11,6 @@ type Props = {
 }
 
 export default function Home({ allPosts, allTags }: Props) {
-  console.log('tags', allTags)
   return (
     <>
       <div className="layout">
@@ -48,7 +47,6 @@ export const getStaticProps = async () => {
   ])
 
   const allTags = getAllTags()
-  console.log(allTags)
   return {
     props: { allPosts, allTags }
   }
