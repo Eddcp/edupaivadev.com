@@ -4,12 +4,13 @@ title: "Javascript Tips: Hoisting, Escopo de variáveis, Herança e Cadeia de
   Protótipos"
 date: 2022-05-04 02:35:13
 thumbnail: https://images.unsplash.com/photo-1542407931-2fe6d5b417d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
+tags:
+  - javascript
+  - tecnologia
+  - desenvolvimento profissional
 categories:
   - quebre o código
-tags: [javascript, tecnologia, desenvolvimento profissional]
 ---
-
-
 - - -
 
 Nesse post darei algumas dicas introdutórias à linguagem Javascript, que provavelmente ajudarão os iniciantes na linguagem a entenderem algum dos seus conceitos.
@@ -20,11 +21,24 @@ Quando estava aprendendo a linguagem, um dos conceitos que me causou estranheza 
 
 ### **Hoisting**
 
-As variáveis declaradas com `var `podem ser acessadas antes mesmo de serem de fato declaradas (é, não me pergunte o por que), isso também acontece com funções, o que pode ser bastante útil pois conseguimos chamar uma função antes mesmo de sua declaração, sem a necessidade da criação de protótipos de funções (comumente presentes nas linguagens C/C++). Talvez quando Brendan Eich decidiu criar a linguagem foi uma decisão interessante, mas que abriu a possibilidade pra bastante confusão no código. Segue um exemplo:
+As variáveis declaradas com `var`podem ser acessadas antes mesmo de serem de fato declaradas (é, não me pergunte o por que), isso também acontece com funções, o que pode ser bastante útil pois conseguimos chamar uma função antes mesmo de sua declaração, sem a necessidade da criação de protótipos de funções (comumente presentes nas linguagens C/C++). Talvez quando Brendan Eich decidiu criar a linguagem foi uma decisão interessante, mas que abriu a possibilidade pra bastante confusão no código. Segue um exemplo:
+
+```js
+person = 'Jon Snow';
+
+var person;
+
+console.log(person);
+```
 
 Nesse trecho acima nenhum erro ocorre, estranho não? Se você trabalha com outras linguagens como C ou Java, sabe que tentar acessar uma variável antes de sua declaração irá disparar um erro. Já no JavaScript, todas declarações são **“*hoisted*”** (içadas para o início do código)
 
 No código abaixo qual o valor será printado?
+
+```js
+console.log(person);
+var person = 'Jon Snow';
+```
 
 A resposta correta é `undefined`, afinal apenas as declarações são ***hoisted*** e não suas atribuições.
 
