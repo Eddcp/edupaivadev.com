@@ -56,17 +56,17 @@ O ES6 introduziu duas novas maneiras de declarar variáveis let e const. Ambas p
 
 ![](https://cdn-images-1.medium.com/max/800/1*XVN7Lf5Ia0SYgECMa1fZ0A.png)
 
-Como `let` possui escopo de bloco não poderá ser acessada fora do bloco em que ela foi definida. Já a declaração usando `const` também possui escopo de bloco, porém com algumas diferenças em relação ao `let`: Toda declaração usando `const` deve obrigatoriamente ser inicializada e uma vez atribuído um valor a essa variável ele não pode mudar, isso não significa que um objeto atribuído a uma variável usando `const` seja imutável, o que não é permitido é atribuir um objeto totalmente diferente a uma variável previamente declarada.
+Como let possui escopo de bloco não poderá ser acessada fora do bloco em que ela foi definida. Já a declaração usando const também possui escopo de bloco, porém com algumas diferenças em relação ao let: Toda declaração usando `const` deve obrigatoriamente ser inicializada e uma vez atribuído um valor a essa variável ele não pode mudar, isso não significa que um objeto atribuído a uma variável usando `const` seja imutável, o que não é permitido é atribuir um objeto totalmente diferente a uma variável previamente declarada.
 
 ![](https://cdn-images-1.medium.com/max/800/1*sXECep4u9j-dUBBsaVfUoQ.png)
 
 Nova atribuição para uma variável const é proibida, porém é possível alterar o objeto já existente
 
-Então as variáveis declaradas utilizando `let` e `const` não são ***hoisted***?
+Então as variáveis declaradas utilizando let e const não são ***hoisted***?
 
-Todas declarações (function, var, let, const e class) são hoisted no JavaScript, enquanto declarações utilizando `var` são inicializadas com `undefined`, as variáveis declaradas com `let` e `const` só são inicializadas na linha que a declaração ocorre de fato, antes disso elas permanecem na “*Temporal Dead Zone*”, um tempo entre a criação e sua inicialização onde a variável não pode ser acessada.
+Todas declarações (function, var, let, const e class) são hoisted no JavaScript, enquanto declarações utilizando var são inicializadas com `undefined`, as variáveis declaradas com let e const só são inicializadas na linha que a declaração ocorre de fato, antes disso elas permanecem na “*Temporal Dead Zone*”, um tempo entre a criação e sua inicialização onde a variável não pode ser acessada.
 
-Qual dessas declarações devo usar? Uma boa prática é usar o `const` ao invés do `let` para declarar as variáveis e funções do seu sistema, pois gera uma previsibilidade da sua aplicação, afinal não pode haver uma reatribuição de seus valores. Há poucos usos para o `let`, que é o caso dos loops, afinal a cada iteração a variável recebe um novo valor. Ainda sim os loops podem ser substituídos pelas alternativas funcionais: `map`, `filter`, `reduce`. Como o ES6 provê essas novas funcionalidades prefira elas ao uso do `var`.
+Qual dessas declarações devo usar? Uma boa prática é usar o `const` ao invés do let para declarar as variáveis e funções do seu sistema, pois gera uma previsibilidade da sua aplicação, afinal não pode haver uma reatribuição de seus valores. Há poucos usos para o let, que é o caso dos loops, afinal a cada iteração a variável recebe um novo valor. Ainda sim os loops podem ser substituídos pelas alternativas funcionais: `map`, `filter`, `reduce`. Como o ES6 provê essas novas funcionalidades prefira elas ao uso do `var`.
 
 - - -
 
