@@ -1,10 +1,12 @@
 import { BlogPost } from 'types/post'
 import { timeToRead } from '@/utils/time'
+import useWindowSize from '@/hooks/useWindowSize'
 
 import ReactMarkdown from 'react-markdown'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { darcula } from 'react-syntax-highlighter/dist/cjs/styles/prism'
 import Image from 'next/image'
+import SizeHelper from '@/utils/sizeHelper'
 
 import CycleSvg from '@/../public/img/categories-icons/quebre-o-ciclo.svg'
 import CodeSvg from '@/../public/img/categories-icons/quebre-o-codigo.svg'
@@ -26,10 +28,12 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
   const categoryString = post.categories ? post.categories.toString() : ''
   const svgName = categoryString.replace(/\s/g, '-').replace('ó', 'o')
   const CategorySVG = components[svgName]
+  const { width } = useWindowSize()
+
   return (
     <section className="layout markdown">
       <div className="grid grid-cols-12">
-        <article className="col-span-12 mt-10 max-w-[100%] lg:col-span-8">
+        <article className="col-span-12 mt-10 max-w-[100%] lg:col-span-12">
           <div className="flex justify-between">
             <div>
               {CategorySVG !== undefined ? (
@@ -48,7 +52,7 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
               src={post.thumbnail}
               layout="responsive"
               width={1000}
-              height={600}
+              height={SizeHelper.isDesktop(width) ? 300 : 500}
               objectFit="cover"
               quality={75}
             />
