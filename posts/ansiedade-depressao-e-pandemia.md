@@ -1,5 +1,6 @@
 ---
 title: Ansiedade, Depressão e Pandemia
+author: Eduardo Paiva
 date: 2022-05-02 10:45:38
 thumbnail: https://images.unsplash.com/photo-1473830394358-91588751b241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGRlcHJlc3NlZHxlbnwwfHwwfHw%3D&w=1000&q=80
 tags:
