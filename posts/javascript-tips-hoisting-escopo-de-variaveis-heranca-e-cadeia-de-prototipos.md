@@ -54,11 +54,11 @@ IIFE: A maneira antiga de encapsularmos nossas variáveis
 
 O ES6 introduziu duas novas maneiras de declarar variáveis **let** e **const**. Ambas possuem escopo de bloco. Pegue o código anterior, porém vamos substituir a palavra reservada **var** por **let**
 
-![](https://cdn-images-1.medium.com/max/800/1*XVN7Lf5Ia0SYgECMa1fZ0A.png)
+![Código Javascript, onde um laço é percorrido para exibir as strings dentro de um array. As string são Frodo, Sam e Gandalf](https://cdn-images-1.medium.com/max/800/1*XVN7Lf5Ia0SYgECMa1fZ0A.png)
 
 Como let possui escopo de bloco não poderá ser acessada fora do bloco em que ela foi definida. Já a declaração usando const também possui escopo de bloco, porém com algumas diferenças em relação ao let: Toda declaração usando const deve obrigatoriamente ser inicializada e uma vez atribuído um valor a essa variável ele não pode mudar, isso não significa que um objeto atribuído a uma variável usando const seja imutável, o que não é permitido é atribuir um objeto totalmente diferente a uma variável previamente declarada.
 
-![](https://cdn-images-1.medium.com/max/800/1*sXECep4u9j-dUBBsaVfUoQ.png)
+![Atribuíçao à uma variável const já declarada para exibir o erro de tentativa de atribuir novo valor](https://cdn-images-1.medium.com/max/800/1*sXECep4u9j-dUBBsaVfUoQ.png)
 
 Nova atribuição para uma variável const é proibida, porém é possível alterar o objeto já existente
 
@@ -72,19 +72,21 @@ Qual dessas declarações devo usar? Uma boa prática é usar o const ao invés 
 
 ### **Herança e Cadeia de protótipos**
 
-Um dos grandes conceitos da Orientação a Objetos é a herança. Herança é a capacidade de um objeto herdar as propriedades de outro, basicamente é o relacionamento chamado de “é um”. Um cachorro **é um** animal, se criássemos a classe Animal, a classe Cachorro herdaria as propriedades de animal.
+Um dos grandes conceitos da Orientação a Objetos é a herança. Herança é a capacidade de um objeto herdar as propriedades de outro, basicamente é o relacionamento chamado de “é um”. Um cachorro **é um** animal, se criássemos a classe Animal, a classe Cachorro herdaria as propriedades de animal. Por mais que sempre preferimos Composição ao invés de Herança, é bom saber o funcionamento dessa ferramenta que a orientação a objetos nos fornence.
 
 A herança no JavaScript é baseada na cadeia de protótipos. Cada objeto possui seu prototype. Vamos para um exemplo:
 
 **Animal** é a classe pai, **Dog** e **Lion** são as classes que herdam as propriedades de Animal. Todo objeto herda as propriedades de **Object**, dessa forma como a herança no JavaScript é baseada na cadeia de protótipos, **Animal** aponta para o prototype de **Object**, **Dog** e **Lion** apontam para o prototype de **Animal**. Assim se temos uma instância de **Dog** e tentamos acessar uma propriedade dentro desse objeto, primeiro ele procura nas propriedades de **Dog**, depois nas propriedades de **Animal** e finalmente nas propriedades de **Object**, essa é a “*Prototype* *Chain*” (Cadeia de protótipos). Conforme pode ser visto na imagem abaixo:
 
-![](https://cdn-images-1.medium.com/max/800/1*hTFbQV1EGK1o0eycwG0NMQ.png)
+![Declaração de novas instâncias da classe Dog e da classe Lion para mostrá-las que possuem a mesma cadeia de protótipos que a classe Animal](https://cdn-images-1.medium.com/max/800/1*hTFbQV1EGK1o0eycwG0NMQ.png)
 
 Herança por cadeia de protótipos, utilizando ES5
 
 Com a chegada do **ES6** — por mais que por trás dos panos a herança ainda seja baseada na cadeia de protótipos — temos um açúcar sintático que nos leva algo mais próximo da herança vista no Java, conforme a código abaixo:
 
-O texto ficou um pouco extenso, mas acredito que esses sejam alguns dos pilares da linguagem JavaScript e é muito necessário você entendê-los, pois são alguns conceitos que diferem o JavaScript das demais linguagens. Fico muito agradecido se você leu até aqui, qualquer dúvida ou correção sobre alguma informação que passei aqui, sinta-se à vontade para comentar. Espero que esse texto tenha te ajudado de alguma forma :)
+O texto ficou um pouco extenso, mas acredito que esses sejam alguns dos pilares da linguagem JavaScript e é muito necessário você entendê-los, pois são alguns conceitos que diferem o JavaScript das demais linguagens. Fico muito agradecido se você leu até aqui, qualquer dúvida ou correção sobre alguma informação que passei aqui, sinta-se à vontade para comentar. Espero que esse texto tenha te ajudado de alguma forma :)\
+\
+*Texto publicado originalmente no medium.*
 
 Referências:
 
