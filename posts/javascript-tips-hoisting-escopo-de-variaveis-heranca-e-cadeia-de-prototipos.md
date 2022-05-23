@@ -78,7 +78,7 @@ A herança no JavaScript é baseada na cadeia de protótipos. Cada objeto possui
 
 **Animal** é a classe pai, **Dog** e **Lion** são as classes que herdam as propriedades de Animal. Todo objeto herda as propriedades de **Object**, dessa forma como a herança no JavaScript é baseada na cadeia de protótipos, **Animal** aponta para o prototype de **Object**, **Dog** e **Lion** apontam para o prototype de **Animal**. Assim se temos uma instância de **Dog** e tentamos acessar uma propriedade dentro desse objeto, primeiro ele procura nas propriedades de **Dog**, depois nas propriedades de **Animal** e finalmente nas propriedades de **Object**, essa é a “*Prototype* *Chain*” (Cadeia de protótipos). Conforme pode ser visto na imagem abaixo:
 
-![](https://cdn-images-1.medium.com/max/800/1*hTFbQV1EGK1o0eycwG0NMQ.png)
+![Declaração de novas instâncias da classe Dog e da classe Lion para mostrá-las que possuem a mesma cadeia de protótipos que a classe Animal](https://cdn-images-1.medium.com/max/800/1*hTFbQV1EGK1o0eycwG0NMQ.png)
 
 Herança por cadeia de protótipos, utilizando ES5
 
