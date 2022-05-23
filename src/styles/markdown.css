@@ -1,5 +1,4 @@
 
-  
 .markdown {
   @apply text-lg leading-relaxed;
 }
@@ -12,9 +11,19 @@
 }
 
 .markdown h1 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  @apply mt-12 mb-4 leading-snug font-bold;
 }
 
 .markdown h2 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+  @apply text-2xl mt-8 mb-4 leading-snug font-bold;
+}
+
+.markdown h3 {
+  @apply text-xl mt-6 mb-3 leading-snug font-bold;
+}
+
+.markdown a {
+  @apply break-all;
+  color: #ff0043;
+  text-decoration: underline;
 }
