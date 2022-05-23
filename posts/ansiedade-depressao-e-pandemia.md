@@ -26,7 +26,9 @@ Nos anos anteriores à pandemia assistia vez ou outra alguma live na Twitch, mas
 \
 Inspirado não só pelo Lucas, mas por diversas pessoas como [DeiaCatLady](https://www.twitch.tv/deiacatlady), [KellFluz](https://www.twitch.tv/kellfluz), [pokemaobr](https://www.twitch.tv/pokemaobr), [LeoKaos](https://www.twitch.tv/leokaos), [Tiiffo](https://www.twitch.tv/tiiffo) e tantos outros (é sempre uma injustiça citar pessoas pois acabamos esquecendo de alguém), comecei a fazer lives na Twitch .Comprei uma interface de áudio, microfone e uma cadeira gamer haha, assisti alguns tutoriais pra configurar o OBS e comecei a fazer as streams. Foi uma maneira de focar em algo para esquecer covid, e aos pouquinhos as coisas foram ficando interessantes, alcancei algumas metas de visualizações e inscritos, recebi raids diversas (termo utilizado para quando um streamer finaliza sua live e leva todos os viewers para uma nova live), fiz novas amizades e cantei bastante karaokê com o Twitch Sings
 
-A música sempre foi uma parte muito importante da minha vida, descobrir o Twitch Sings no meio da pandemia me ajudou muito e me fez ter bons momentos que vou lembrar pro resto da vida. No fim de 2020 Twitch Sings chegou ao fim e meu cansaço/stress da pandemia atingiu seu ápice na virada do ano
+A música sempre foi uma parte muito importante da minha vida, descobrir o Twitch Sings no meio da pandemia me ajudou muito e me fez ter bons momentos que vou lembrar pro resto da vida. No fim de 2020 Twitch Sings chegou ao fim e meu cansaço/stress da pandemia atingiu seu ápice na virada do ano. Aqui vai um vídeozinho do Twitch Sings para relembrar os bons tempos desse karaokê online.
+
+[![IMAGE_ALT](https://img.youtube.com/vi/DPmGvJHoQhY/0.jpg)](https://youtu.be/DPmGvJHoQhY)
 
 ### Ano de 2021, Covid e problemas no pulmão
 
