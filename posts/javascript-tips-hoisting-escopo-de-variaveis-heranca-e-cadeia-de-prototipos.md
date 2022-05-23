@@ -12,8 +12,6 @@ tags:
 categories:
   - quebre o código
 ---
-- - -
-
 Nesse post darei algumas dicas introdutórias à linguagem Javascript, que provavelmente ajudarão os iniciantes na linguagem a entenderem algum dos seus conceitos.
 
 JavaScript é uma linguagem de programação que possui algumas particularidades (bem estranhas por sinal), acredito que isso se dá pelo fato de seu criador Brendan Eich, ter levado apenas 10 dias para desenvolvê-la.
