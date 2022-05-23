@@ -8,7 +8,7 @@ tags:
 categories:
   - quebre o ciclo
 ---
-Não sei quando você está lendo esse texto, mas os últimos anos têm sido extremamente complicados, em 2020 vimos o mundo entrar em lockdown devido a pandemia do COVID-19 e agora em 2022 aliado a pandemia ainda estamos em uma situação catastrófica, para completar ainda estamos vivendo a guerra entre Rússia e Ucrânia, um desgoverno de Bolsonaro e uma inflação mundial. Alguém nos ajude Lázaro.\
+Não sei quando você está lendo esse texto, mas os últimos anos têm sido extremamente complicados, em 2020 vimos o mundo entrar em lockdown devido a pandemia do COVID-19 e agora em 2022 aliado a pandemia ainda estamos em uma situação catastrófica com a guerra entre Rússia e Ucrânia, um desgoverno de Bolsonaro e uma inflação mundial. Alguém nos ajude Lázaro.\
 \
 ![Congêneres: 9 frases do Criolo que deixaram o Lázaro Ramos perplexo](http://1.bp.blogspot.com/-fJSzGYpJpxc/Uzwmpbn-k4I/AAAAAAABFb0/2HBrvKfIe34/s1600/anigif_enhanced-14573-1396356366-9.gif)
 
