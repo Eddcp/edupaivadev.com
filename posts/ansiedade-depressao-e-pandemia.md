@@ -28,8 +28,8 @@ Inspirado não só pelo Lucas, mas por diversas pessoas como [DeiaCatLady](https
 
 A música sempre foi uma parte muito importante da minha vida, descobrir o Twitch Sings no meio da pandemia me ajudou muito e me fez ter bons momentos que vou lembrar pro resto da vida. No fim de 2020 Twitch Sings chegou ao fim e meu cansaço/stress da pandemia atingiu seu ápice na virada do ano. Aqui vai um vídeozinho do Twitch Sings para relembrar os bons tempos desse karaokê online.
 
-### <iframe width="560" height="315" src="https://www.youtube.com/embed/DPmGvJHoQhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
-\
+### <iframe width="560" height="315" src="https://www.youtube.com/embed/DPmGvJHoQhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Ano de 2021, Covid e problemas no pulmão
 
