@@ -1,4 +1,5 @@
 import { BlogPost } from 'types/post'
+import { timeToRead } from '@/utils/time'
 
 import ReactMarkdown from 'react-markdown'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
@@ -53,7 +54,16 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
             />
           </div>
           <section>
-            <h1 className="text-3xl font-bold sm:text-5xl">{post.title}</h1>
+            <h1 className="font-bold">{post.title}</h1>
+            <div className="flex justify-between mb-5">
+              <span className="font-antarctican text-sm font-bold uppercase lg:text-lg">
+                {post.author ? `por ${post.author}` : ''}
+              </span>
+              <span className="text-sm lg:text-lg">
+                {timeToRead(post.content)}
+              </span>
+            </div>
+            <hr className="h-0.5 bg-red border-none" />
             <ReactMarkdown
               components={{
                 code({ className, children }) {
@@ -68,6 +78,7 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
             >
               {post.content}
             </ReactMarkdown>
+            <hr className="h-0.5 bg-red border-none" />
           </section>
         </article>
       </div>
