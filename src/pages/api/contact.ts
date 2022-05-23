@@ -6,7 +6,6 @@ const OAuth2 = google.auth.OAuth2
 const nodemailer = require('nodemailer')
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
-  console.log(req)
   const { name, email, message } = req.body
   const oauth2Client = new OAuth2(
     process.env.CLIENT_ID,
@@ -21,7 +20,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   const accessToken = await new Promise((resolve, reject) => {
     oauth2Client.getAccessToken((err, token) => {
       if (err) {
-        console.log('oauth problem')
         reject()
       }
       resolve(token)
@@ -55,7 +53,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     return res.status(200).end()
 
   } catch (error) {
-    console.log(error)
     const errorMessage = error instanceof Error ? error.message : error
     const errorResponse = res.status(400).json({ error: errorMessage })
     res.end()
