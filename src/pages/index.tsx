@@ -4,6 +4,7 @@ import { getAllPosts } from 'lib/md-client'
 import BlogPostItem from 'types/post'
 import TechSection from '@/components/TechSection'
 import { getAllTags } from '@/lib/tags'
+import { NextSeo } from 'next-seo'
 
 type Props = {
   allPosts: BlogPostItem[]
@@ -13,6 +14,23 @@ type Props = {
 export default function Home({ allPosts, allTags }: Props) {
   return (
     <>
+      <NextSeo
+        title="Home - edupaivadev"
+        description="Desenvolvimento pessoal, profissional e financeiro pelo engenheiro de software Eduardo Paiva"
+        canonical="https://edupaivadev.com"
+        openGraph={{
+          url: 'https://edupaivadev.com',
+          images: [
+            {
+              url: 'https://www.edupaivadev.com/img/3dlogo.png',
+              width: 1080,
+              height: 1080,
+              alt: 'logo 3d'
+            }
+          ],
+          site_name: 'edupaivadev'
+        }}
+      />
       <div className="layout">
         <HeroSection />
         <HighlightsSection posts={allPosts} tags={allTags} />

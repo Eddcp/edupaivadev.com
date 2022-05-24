@@ -10,6 +10,9 @@ import '@/styles/globals.css'
 import '@/styles/markdown.css'
 import NextNProgress from 'nextjs-progressbar'
 import Analytics from '@/components/Analytics'
+import SEO from '@/../next-seo.config'
+
+import { DefaultSeo } from 'next-seo'
 
 function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
@@ -37,6 +40,7 @@ function App({ Component, pageProps }: AppProps) {
           content="Desenvolvimento pessoal, profissional e financeiro pelo engenheiro de software Eduardo PAiva"
         />
       </Head>
+      <DefaultSeo {...SEO} />
       <Analytics />
       <Layout>
         <NextNProgress
