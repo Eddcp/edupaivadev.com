@@ -22,7 +22,7 @@ export default function Home({ allPosts, allTags }: Props) {
           url: 'https://edupaivadev.com',
           images: [
             {
-              url: 'https://www.edupaivadev.com/img/3dlogo.png',
+              url: 'https://www.edupaivadev.com/img/edupaivadev3d.jpg',
               width: 1080,
               height: 1080,
               alt: 'logo 3d'
