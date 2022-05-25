@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
@@ -28,6 +29,7 @@
     "gray-matter": "^4.0.3",
     "next": "12.1.0",
     "next-seo": "^5.4.0",
+    "next-sitemap": "^2.5.25",
     "nextjs-progressbar": "^0.0.14",
     "nodemailer": "^6.7.5",
     "react": "17.0.2",
