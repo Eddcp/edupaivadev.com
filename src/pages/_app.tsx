@@ -33,6 +33,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>edupaivadev</title>
+        <meta name="google-site-verification" content="VuzlTcaE4VY0DB88TzhPBxkOjU21stn5lrQoZavoAhY" />
         <link rel="shortcut icon" href="/img/avatar-meta-icon.png" />
         <link rel="apple-touch-icon" href="/img/avatar-meta-icon.png" />
         <meta
