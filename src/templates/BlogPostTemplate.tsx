@@ -31,6 +31,8 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
   const CategorySVG = components[svgName]
   const { width } = useWindowSize()
 
+  console.log(post.featured_image?.alt)
+
   return (
     <>
       <NextSeo
@@ -65,14 +67,16 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
             <div className="relative mt-5 w-full">
               <Image
                 src={
-                  post.featureImage ? post.featureImage.image : post.thumbnail
+                  post.featured_image?.src !== undefined
+                    ? post.featured_image.src
+                    : post.thumbnail
                 }
                 layout="responsive"
                 width={1000}
                 height={SizeHelper.isDesktop(width) ? 300 : 500}
                 objectFit="cover"
                 quality={75}
-                alt={post.featureImage ? post.featureImage.alt : ''}
+                alt={post.featured_image?.alt}
               />
             </div>
             <section>

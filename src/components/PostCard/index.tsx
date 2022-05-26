@@ -9,7 +9,7 @@ const PostCard = ({
   categories,
   slug,
   icon,
-  featureImage
+  featured_image
 }: BlogPostItem) => {
   const CategorySvg = icon
   return (
@@ -36,11 +36,11 @@ const PostCard = ({
                 <h3 className="p-3 font-bold uppercase">{title}</h3>
               </figcaption>
               <Image
-                src={featureImage ? featureImage.image : thumbnail}
+                src={featured_image ? featured_image.src : thumbnail}
                 className="gradient__img"
                 width="500"
                 height="275"
-                alt={featureImage ? featureImage.alt : 'imagem do post'}
+                alt={featured_image ? featured_image.alt : 'imagem do post'}
               />
             </div>
           </a>

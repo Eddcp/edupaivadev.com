@@ -27,7 +27,8 @@ export const getStaticProps = async () => {
     'author',
     'categories',
     'content',
-    'thumbnail'
+    'thumbnail',
+    'feature_image'
   ])
 
   return {

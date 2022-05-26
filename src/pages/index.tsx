@@ -61,7 +61,8 @@ export const getStaticProps = async () => {
     'author',
     'content',
     'categories',
-    'thumbnail'
+    'thumbnail',
+    'featured_image'
   ])
 
   const allTags = getAllTags()
