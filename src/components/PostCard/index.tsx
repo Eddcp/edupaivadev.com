@@ -40,7 +40,7 @@ const PostCard = ({
                 className="gradient__img"
                 width="500"
                 height="275"
-                alt={featureImage ? featureImage.alt : 'test'}
+                alt={featureImage ? featureImage.alt : 'imagem do post'}
               />
             </div>
           </a>
