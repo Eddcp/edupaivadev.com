@@ -9,7 +9,7 @@ categories:
 thumbnail: https://images.unsplash.com/photo-1473830394358-91588751b241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGRlcHJlc3NlZHxlbnwwfHwwfHw%3D&w=1000&q=80
 featured_image:
   alt: Homem sentado no peitoril de uma janela sem vidros olhando para o mar.
-    Nesse peitoril há um pouco de neve, tempo está nublado
+    Nesse peitoril há um pouco de neve e o céu está nublado
   src: https://images.unsplash.com/photo-1473830394358-91588751b241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGRlcHJlc3NlZHxlbnwwfHwwfHw%3D&w=1000&q=80
 ---
 Não sei quando você está lendo esse texto, mas os últimos anos têm sido extremamente complicados, em 2020 vimos o mundo entrar em lockdown devido a pandemia do COVID-19 e agora em 2022 aliado a pandemia ainda estamos em uma situação catastrófica com a guerra entre Rússia e Ucrânia, um desgoverno de Bolsonaro e uma inflação mundial. Alguém nos ajude Lázaro.\
