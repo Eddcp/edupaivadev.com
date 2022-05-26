@@ -38,6 +38,7 @@ const PostList = ({ posts, className }: Props) => {
               content={post.content}
               categories={post.categories}
               icon={CategorySVG}
+              featureImage={post.featureImage}
             />
           </li>
         )
