@@ -4,13 +4,16 @@ title: "Javascript Tips: Hoisting, Escopo de variáveis, Herança e Cadeia de
   Protótipos"
 author: Eduardo Paiva
 date: 2022-05-04 02:35:13
-thumbnail: https://images.unsplash.com/photo-1542407931-2fe6d5b417d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
 tags:
   - javascript
   - tecnologia
   - desenvolvimento profissional
 categories:
   - quebre o código
+thumbnail: https://images.unsplash.com/photo-1542407931-2fe6d5b417d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
+featured_image:
+  src: https://images.unsplash.com/photo-1542407931-2fe6d5b417d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
+  alt: Imagem com fundo preto e um corrente levemente enferrujada
 ---
 Nesse post darei algumas dicas introdutórias à linguagem Javascript, que provavelmente ajudarão os iniciantes na linguagem a entenderem algum dos seus conceitos.
 
