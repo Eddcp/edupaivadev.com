@@ -64,12 +64,15 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
             </div>
             <div className="relative mt-5 w-full">
               <Image
-                src={post.thumbnail}
+                src={
+                  post.featureImage ? post.featureImage.image : post.thumbnail
+                }
                 layout="responsive"
                 width={1000}
                 height={SizeHelper.isDesktop(width) ? 300 : 500}
                 objectFit="cover"
                 quality={75}
+                alt={post.featureImage ? post.featureImage.alt : ''}
               />
             </div>
             <section>
