@@ -23,7 +23,8 @@ export async function getStaticProps({ params }: Params) {
     'author',
     'categories',
     'content',
-    'thumbnail'
+    'thumbnail',
+    'featured_image'
   ])
 
   const { content } = post
