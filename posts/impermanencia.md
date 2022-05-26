@@ -3,12 +3,15 @@ layout: blog
 title: Impermanência
 author: Eduardo Paiva
 date: 2022-05-21 09:31:03
-thumbnail: https://images.unsplash.com/photo-1565589595985-6ae56ab1bea9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469
 tags:
   - desenvolvimento pessoal
   - filosofia
 categories:
   - quebre o ciclo
+thumbnail: https://images.unsplash.com/photo-1565589595985-6ae56ab1bea9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469
+featured_image:
+  src: https://images.unsplash.com/photo-1565589595985-6ae56ab1bea9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469
+  alt: Estátua budista na cor branca em frente a floresta
 ---
 ### Início, meio, fim.
 
