@@ -27,8 +27,14 @@ collections:
       - {label: 'Author', name: 'author', widget: 'string', required: false}
       - {label: 'AuthorTwitter', name: 'authorTwitter', widget: 'string', required: false}
       - {label: 'Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD hh:mm:ss'}
-      - {label: 'Featured Image', name: 'thumbnail', widget: 'image'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
       - {label: 'Tags', name: 'tags', widget: 'list', default: [''] }
       - {label: 'Category', name: 'categories', widget: 'list' }
-
+      - {label: 'Featured Image', name: 'thumbnail', widget: 'image'}
+      - name: featured_image
+        label: Featured image
+        widget: object
+        fields:
+          - {name: src, label: Image, widget: image }
+          - {name: alt, label: Alt text, widget: string }
+          - {name: title, label: Title, widget: string }
