@@ -1,6 +1,6 @@
 type FeatureImage = {
-  image: string,
-  title: string,
+  image: string
+  title: string
   alt: string
 }
 
@@ -13,7 +13,7 @@ type BlogPostItem = {
   thumbnail: string
   categories: string
   icon?: React.FunctionComponent<React.SVGProps<SVGPolygonElement>>
-  tags?: string[],
+  tags?: string[]
   featureImage?: FeatureImage
 }
 
