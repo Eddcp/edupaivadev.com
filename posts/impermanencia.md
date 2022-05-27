@@ -27,7 +27,7 @@ A gente encerra o período da escola, da faculdade, do trabalho, trocamos de ami
 
 ### Apocalipsters, Lives na Twtich, Fresno
 
-**Apocalipsters** foi um projeto de podcast que fiz parte, aprendi bastante e pude trocar ideia com pessoas diversas, mas chegou um momento que simplesmente as coisas não foram fazendo mais sentido nem pra mim, nem pra algumas pessoas que estavam por lá, que seja por outros projetos, essencialismo, divergências ou qualquer outro motivo. E tá tudo bem, são efeitos naturais da vida.
+**[Apocalipsters](https://open.spotify.com/show/55NnEz9rm1UnRmXf1cK64J?si=TNCKOvBHRqG4EBHshrrCdA&nd=1)** foi um projeto de podcast que fiz parte, aprendi bastante e pude trocar ideia com pessoas diversas, mas chegou um momento que simplesmente as coisas não foram fazendo mais sentido nem pra mim, nem pra algumas pessoas que estavam por lá, que seja por outros projetos, essencialismo, divergências ou qualquer outro motivo. E tá tudo bem, são efeitos naturais da vida.
 
 Como disse no [primeiro texto](https://www.edupaivadev.com/blog/ansiedade-depressao-e-pandemia/) deste blog, em 2020 comecei a fazer lives na Twitch, cantei bastante num karaokê online através do Twitch Sings, fiz amigos e os mantenho até o momento, porém chegou uma fase que não estava bem pra entregar entretenimento para outras pessoas. Eu até estive afim de continuar, mas problemas e tropeços pessoais acabaram me afastando das streams e hoje não vejo tanto sentido em voltar a fazer lives. \
 \
