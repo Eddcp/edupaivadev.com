@@ -25,7 +25,10 @@ const components: Component = {
 }
 
 const HighlightsSection = ({ posts, tags }: Props) => (
-  <section className="grid grid-cols-3 gap-2 mt-16 lg:mt-[20rem]">
+  <section
+    id="highlights"
+    className="grid grid-cols-3 gap-2 mt-40 lg:mt-[20rem]"
+  >
     <article className="col-span-3 lg:col-span-2">
       <h2 className="text-2xl font-bold uppercase">Destaques</h2>
       <PostList posts={posts} className="grid grid-cols-2 gap-2 mt-4" />
