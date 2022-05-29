@@ -1,6 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { google } from 'googleapis'
 const OAuth2 = google.auth.OAuth2
+const CLIENT_ID = process.env.CLIENT_ID
+const CLIENT_SECRET = process.env.CLIENT_SECRET
 
 /* eslint-disable */
 const nodemailer = require('nodemailer')
@@ -8,8 +10,8 @@ const nodemailer = require('nodemailer')
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const { name, email, message } = req.body
   const oauth2Client = new OAuth2(
-    process.env.CLIENT_ID,
-    process.env.CLIENT_SECRET,
+    CLIENT_ID,
+    CLIENT_SECRET,
     'https://developers.google.com/oauthplayground'
   )
 
@@ -20,6 +22,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   const accessToken = await new Promise((resolve, reject) => {
     oauth2Client.getAccessToken((err, token) => {
       if (err) {
+        console.log('problem oauth', err)
         reject()
       }
       resolve(token)
@@ -34,8 +37,8 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       type: 'OAuth2',
       user: process.env.SMTP_USER,
       accessToken,
-      clientId: process.env.CLIENT_ID,
-      clientSecret: process.env.CLIENT_SECRET,
+      clientId: CLIENT_ID,
+      clientSecret: CLIENT_SECRET,
       refreshToken: process.env.REFRESH_TOKEN
     }
   })
