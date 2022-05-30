@@ -7,7 +7,7 @@ tags:
   - java
   - desenvolvimento profissional
 categories:
-  - quebre-o-codigo
+  - quebre ó codigo
 thumbnail: https://images.unsplash.com/photo-1459755486867-b55449bb39ff?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869
 featured_image:
   src: https://images.unsplash.com/photo-1459755486867-b55449bb39ff?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869
@@ -18,11 +18,11 @@ featured_image:
 ## Functional Interfaces: Predicate, Function, Consumer e Supplier.
 
 \
-Em 2022 o Java já se encontra na versão 18, porém o impacto da versão 8 do Java (Ano de 2014) foi muito grande, afinal essa versão ficou famosa por introduzir vários conceitos novos na linguagem e aproximá-la na possibilidade de um paradigma funcional.\
+Em 2022 o **Java** já se encontra na versão 18, porém o impacto da versão 8 (lançada no ano de 2014) foi muito grande, afinal essa versão ficou famosa por introduzir vários conceitos novos na linguagem e aproximá-la da possibilidade de um paradigma funcional.\
 \
-O Java 8 introduziu o conceito de expressões Lambda e também o conceito de Interfaces Funcionais ***(Functional Interfaces).*** Uma Functional Interface é uma interface que possui apenas um método abstrato. Uma expressão Lambda pode ser vista com uma instância de uma Functional Interface. Esse tipo de interface pode ter também **Default Methods**, porém esse tipo de método será tratado em outro artigo.\
+O **Java 8** introduziu o conceito de expressões **Lambda** e também o conceito de Interfaces Funcionais ***(Functional Interfaces).*** Uma Functional Interface é uma interface que possui apenas um método abstrato. Uma expressão Lambda pode ser vista com uma instância de uma Functional Interface. Esse tipo de interface pode ter também **Default Methods**, porém esse tipo de método será tratado em outro artigo.\
 \
-Algumas interfaces funcionais muito úteis são: **Consumer, Predicate, Supplier** e **Function**. Você pode achar que não, mas se você é um desenvolver Java, provavelmente já as usou. Segue uma tabela indicando os tipos de interfaces, bem como a entrada e saída de cada um dos métodos destas.
+Algumas interfaces funcionais muito úteis são: **Consumer, Predicate, Supplier** e **Function**. Você pode achar que não, mas se você é um desenvolvedor Java, provavelmente já as usou. Segue uma tabela indicando os tipos de interfaces, bem como a entrada e saída de cada um dos métodos destas.
 
 ![Java: Functional Interfaces](https://i0.wp.com/javagyansite.com/wp-content/uploads/2018/12/functional-interfaces.png?resize=768%2C447&ssl=1)
 
@@ -32,6 +32,8 @@ Como pode ser visto no quadro:
 * **Function (Função):** Aceita um argumento. Produz um resultado.
 * **Consumer (Consumidor):** Aceita um argumento. Não produz resultado.
 * **Supplier (Fornecedor):** Não aceita argumentos. Produz um resultado.
+
+
 
 ### Exemplos
 
@@ -129,9 +131,9 @@ public class Main {
 }
 ```
 
-No exemplo acima, fica claro o que foi nos mostrado no quadro onde mostra o que cada tipo de interface aceita como argumento e produz como resultado.\
+No exemplo acima, fica claro o que foi nos mostrado no quadro, o que cada tipo de interface aceita como argumento e produz como resultado.\
 \
-Antes do Java 8, algumas das interfaces já existiam, interfaces como Runnable e Callable, a partir do Java 8 elas foram apenas marcadas com a annotation @FunctionalInterface.
+Antes do **Java 8**, algumas das interfaces já existiam, interfaces como **Runnable** e **Callable**, a partir do Java 8 elas foram apenas marcadas com a annotation @FunctionalInterface.
 
 Em um projeto recente que pude trabalhar, eu e meus colegas de equipe utilizamos a Functional Interface chamada **UnaryOperator**, ela é uma subclasse da **Function** e basicamente ela executa uma operação em um único operador e retorna um objeto do mesmo tipo desse operador. Foi muito útil, pois tínhamos o padrão **Chain Of Responsibility** e executávamos a operação em cima de um tipo em comum e sempre retornávamos esse tipo.\
 \
