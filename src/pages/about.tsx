@@ -38,9 +38,7 @@ const AboutPage = () => (
             principalmente ir em shows e festivais. Podem me seguir no twitter
             pessoal, porém é só shitpost, memes e reclamações: @nomadsedentario
           </p>
-          <p>
-            Todos os links de indicacão do site são links de afiliados
-          </p>
+          <p>Todos os links de indicação do site são links de afiliados</p>
           <div className="mt-8 w-full">
             <SocialLinks
               className="sm:w-[40%] lg:w-[60%] xl:w-[40%]"
