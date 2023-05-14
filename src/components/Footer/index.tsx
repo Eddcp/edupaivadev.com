@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="mt-10 h-12 min-h-full leading-[3rem] text-center bg-secondary">
-        © 2022 edupaivadev All Rights Reserved
+        © 2023 edupaivadev All Rights Reserved
       </p>
     </footer>
   )
