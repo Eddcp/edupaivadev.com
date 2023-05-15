@@ -52,4 +52,4 @@ Em 2021, passei por duas entregas bem estressantes no serviço, além de tudo es
 
 Por fim, gostaria de deixar claro para vocês para sempre buscarem ajuda profissional, mas aliado a isso busquem o autoconhecimento e ferramentas para lidar com seus demônios internos. Tomar remédio não é uma sentença, ele pode te fazer voltar a enxergar o mundo colorido de novo, irá te ajudar a olhar a vida com outra perspectiva. Sigo na terapia e meu psicólogo chegou a me emprestar um livro muito bom para o tratamento cognitivo comportamental.
 
-**[A mente vencendo o humor](https://amzn.to/3JbGY44)** \[Disclaimer: Esse é um link de afiliado e comprando qualquer coisa através dele vocês ajudam a manter o blog funcionando.]
+**[A mente vencendo o humor](https://amzn.to/45eeMJs)** \[Disclaimer: Esse é um link de afiliado e comprando qualquer coisa através dele vocês ajudam a manter o blog funcionando.]
