@@ -27,7 +27,7 @@
     "github-slugger": "^1.4.0",
     "googleapis": "^100.0.0",
     "gray-matter": "^4.0.3",
-    "next": "12.1.0",
+    "next": "13.5.0",
     "next-seo": "^5.4.0",
     "next-sitemap": "^2.5.25",
     "nextjs-progressbar": "^0.0.14",
