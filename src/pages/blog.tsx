@@ -47,6 +47,7 @@ const BlogPage = ({ allPosts }: Props) => {
           type="text"
           id="search"
           name="search"
+          value={search}
           onChange={handleSearch}
           className="peer px-2 w-full h-10 bg-transparent rounded-md border focus:border-red-300 focus:outline-none transition-colors"
           placeholder="Search..."
