@@ -15,6 +15,7 @@ type Component = {
 
 const components: Component = {
   'quebre-o-ciclo': CycleSvg,
+  'break-the-cycle': CycleSvg,
   'quebre-o-codigo': CodeSvg
 }
 

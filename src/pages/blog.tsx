@@ -13,6 +13,7 @@ focus:border-primary-300 focus:outline-none focus:ring-0 dark:focus:border-prima
 */
 const BlogPage = ({ allPosts }: Props) => {
   const [search, setSearch] = useState<string>('')
+  const [isEnglish, setIsEnglish] = useState<boolean>(false)
 
   const searchFilter = (array: BlogPostItem[]): BlogPostItem[] => {
     return array.filter((post: BlogPostItem) =>
@@ -23,8 +24,16 @@ const BlogPage = ({ allPosts }: Props) => {
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value)
   }
+  const clearSearch = () => setSearch('')
 
   const filteredPosts = searchFilter(allPosts)
+  const englishPosts = filteredPosts.filter((post) =>
+    post.slug.startsWith('english-')
+  )
+  const portuguesePosts = filteredPosts.filter(
+    (post) => !post.slug.startsWith('english-')
+  )
+  const currentPosts = isEnglish ? englishPosts : portuguesePosts
 
   return (
     <section className="layout">
@@ -32,6 +41,7 @@ const BlogPage = ({ allPosts }: Props) => {
       <h2 className="mt-5 text-xl">
         Pensamentos, ensinamentos e mais algumas coisas.
       </h2>
+      {/* TODO Extract to Search Component */}
       <div className="mt-5">
         <input
           type="text"
@@ -42,9 +52,20 @@ const BlogPage = ({ allPosts }: Props) => {
           placeholder="Search..."
         />
       </div>
+      <div className="mt-5">
+        <button
+          className="px-3 h-10 text-base font-semibold text-white uppercase bg-red hover:bg-rose-700 rounded"
+          onClick={() => {
+            setIsEnglish((b) => !b)
+            clearSearch()
+          }}
+        >
+          Read in {isEnglish ? 'Portuguese' : 'English'}
+        </button>
+      </div>
       <section className="mb-40">
         <PostList
-          posts={filteredPosts}
+          posts={currentPosts}
           className="grid grid-cols-3 gap-2 mt-4"
         />
       </section>
