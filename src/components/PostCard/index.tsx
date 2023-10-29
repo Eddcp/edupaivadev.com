@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import Link from 'next/link'
 import BlogPostItem from 'types/post'
 
@@ -29,7 +29,7 @@ const PostCard = ({
       </div>
 
       <figure className="relative mt-2">
-        <Link href={`/blog/${slug}`}>
+        <Link legacyBehavior href={`/blog/${slug}`}>
           <a>
             <div className="gradient">
               <figcaption className="absolute bottom-3 z-20">

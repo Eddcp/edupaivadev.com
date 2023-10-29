@@ -20,7 +20,7 @@ const links = [
 ]
 
 describe('', () => {
-  test.each(links)('Check if Menu have %s link.', (link) => {
+  test.each(links)('Check if Menu has %s link.', (link) => {
     render(<Menu />)
     const linkDom = screen.getByText(link.label)
 

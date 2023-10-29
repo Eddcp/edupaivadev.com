@@ -12,7 +12,7 @@ const Menu = () => {
         <ul className="flex justify-between items-center space-x-3">
           {links.map((link, index) => (
             <li key={index}>
-              <Link href={link.url}>
+              <Link legacyBehavior href={link.url}>
                 <a className={router.pathname === link.url ? 'active' : ''}>
                   {link.label}
                 </a>

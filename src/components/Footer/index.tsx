@@ -1,5 +1,5 @@
 import ContactForm from 'components/ContactForm'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import useWindowSize from '@/hooks/useWindowSize'
 import SizeHelper from '@/utils/sizeHelper'
 import SocialLinks from '../SocialLinks'

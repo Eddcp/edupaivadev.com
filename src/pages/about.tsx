@@ -1,5 +1,5 @@
 import SocialLinks from '@/components/SocialLinks'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 
 const AboutPage = () => (
   <>

@@ -5,7 +5,7 @@ import useWindowSize from '@/hooks/useWindowSize'
 import ReactMarkdown from 'react-markdown'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { darcula } from 'react-syntax-highlighter/dist/cjs/styles/prism'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import SizeHelper from '@/utils/sizeHelper'
 
 import CycleSvg from '@/../public/img/categories-icons/quebre-o-ciclo.svg'
@@ -30,8 +30,6 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
   const svgName = categoryString.replace(/\s/g, '-').replace('ó', 'o')
   const CategorySVG = components[svgName]
   const { width } = useWindowSize()
-
-  console.log(post.featured_image?.alt)
 
   return (
     <>
@@ -76,7 +74,7 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
                 height={SizeHelper.isDesktop(width) ? 300 : 500}
                 objectFit="cover"
                 quality={75}
-                alt={post.featured_image?.alt}
+                alt={post.featured_image?.alt ?? ''}
               />
             </div>
             <section>
