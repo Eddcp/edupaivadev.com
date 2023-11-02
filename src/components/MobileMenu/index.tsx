@@ -21,13 +21,13 @@ const MobileMenu = () => {
     <div className="lg:hidden">
       <button
         type="button"
-        className="py-1 mx-1 w-8 h-8 rounded"
+        className="mx-1 h-8 w-8 rounded py-1"
         aria-label="Toggle Menu"
         onClick={onToggleNav}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-6 h-6"
+          className="h-6 w-6"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -41,15 +41,20 @@ const MobileMenu = () => {
         </svg>
       </button>
       <div
-        className={`fixed top-0 right-0 z-10 h-full w-full transform bg-primary opacity-95 duration-300 ease-in-out dark:bg-gray-800 ${
+        className={`fixed right-0 top-0 z-10 h-full w-full bg-primary opacity-95 duration-300 ease-in-out dark:bg-gray-800${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
+        aria-label="mobile-menu"
       >
-        <div className="flex justify-between mt-5 layout">
+        <div className="layout mt-5 flex justify-between">
           <nav className="h-full">
             <ul>
-              {links.map((link, index) => (
-                <li className="py-4" key={index} onClick={onToggleNav}>
+              {links.map((link) => (
+                <li
+                  className="py-4"
+                  key={`mobile-menu-${link.url}`}
+                  onClick={onToggleNav}
+                >
                   <Link href={link.url}>{link.label}</Link>
                 </li>
               ))}
@@ -58,13 +63,13 @@ const MobileMenu = () => {
           <button
             type="button"
             aria-label="toggle modal"
-            className="mr-1 w-8 h-8 focus:outline-none cursor-auto"
+            className="mr-1 h-8 w-8 cursor-auto focus:outline-none"
             onClick={onToggleNav}
           >
             {/* SVG from heroicons */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-6 h-6"
+              className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

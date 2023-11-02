@@ -8,11 +8,12 @@ const Menu = () => {
 
   return (
     <div className="hidden lg:block">
-      <nav className="flex justify-end items-center py-4">
-        <ul className="flex justify-between items-center space-x-3">
-          {links.map((link, index) => (
-            <li key={index}>
+      <nav className="flex items-center justify-end py-4" aria-label="menu">
+        <ul className="flex items-center justify-between space-x-3">
+          {links.map((link) => (
+            <li key={`${link.url}`}>
               <Link legacyBehavior href={link.url}>
+                {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
                 <a className={router.pathname === link.url ? 'active' : ''}>
                   {link.label}
                 </a>
