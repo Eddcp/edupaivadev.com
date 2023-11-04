@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Como a internet funciona?
+title: "Como a internet funciona? Parte-1: O Nascimento da Internet"
 author: Eduardo Paiva
 date: 2023-10-30 05:41:01
 tags:
@@ -12,9 +12,19 @@ featured_image:
 ---
 # The Birth of the Internet: When and Why
 
-The internet has become an integral part of our daily lives, but have you ever wondered when and why it was born? The birth of the internet can be traced back to the 1960s during the height of the Cold War. At that time, the United States Department of Defense was deeply concerned about maintaining communication in the event of a nuclear war. This concern ultimately led to the creation of ARPANET, the precursor to the modern internet.
+Acho que uma das maiores qualidades de um programador/engenheiro de software é a curiosidade. Além do campo técnico, é muito bom que entendamos história e como certas coisas foram criadas. 
 
-In the late 1950s and early 1960s, the U.S. government, particularly the Department of Defense's Advanced Research Projects Agency (ARPA), initiated the development of a reliable and decentralized communication system. The goal was to ensure that even in the face of a nuclear attack, communication between military and research institutions could continue. This need for a robust, resilient network laid the groundwork for ARPANET.
+## A Guerra Fria e as Contribuições Soviéticas
+
+\
+O ano era 1957 e o contexto mundial era o da Guerra Fria. Do lado leste do mundo existia a União Soviética que acabara de enviar o Sputnik 1 ao espaço, esse foi o primeiro satélite artificial a ser lançado com sucesso na órbita da Terra. Do lado oeste, o Departamento de defesa dos EUA criava a Agência de Projetos de Investigação Avançada - Advanced Research Projects Agency (ARPA).
+
+N﻿o inicio dos anos 60, tal departamento iniciou o desenvolvimento de um sistema decentralizado de comunicação com objetivo de que mesmo em um ataque nuclear, a comunicação entre militares e instituições de pesquisa pudesse continuar. O artigo On Distributed Communication Networks foi publicado em 1962 por Paul Baran, os esforços de vrios cientistas levaram a criação da ARPANET, a precursora da internet moderna.
+
+Na mesma era, na União Soviética, um brilhante matemático e cientista da computação chamado [Viktor Glushkov](https://aeon.co/essays/how-the-soviets-invented-the-internet-and-why-it-didnt-work) estava fazendo contribuições significativas no campo da cibernética. Seu trabalho estava focado no desenvolvimento de uma rede de computadores em todo o território da União Soviética, paralelamente aos esforços dos EUA na criação da ARPANET.
+
+\
+A Primeira Mensagem Enviada Entre Computadores
 
 The first successful ARPANET message was sent on October 29, 1969, marking the birth of the internet. The message "LO" was intended to be "LOGIN," but the system crashed after transmitting the first two characters. Despite this humble beginning, the concept of a network of interconnected computers, called the ARPANET, had taken flight.
 
@@ -23,6 +33,7 @@ Over time, ARPANET evolved and expanded to include more nodes and institutions. 
 **In conclusion**, the internet was born out of the necessity for a resilient communication network during the Cold War. The U.S. Department of Defense's ARPANET project, initiated in the 1960s, marked the beginning of the internet, and its evolution into a global, public network has transformed the way we live, work, and connect with the world.
 
 **References and Useful Links**:
+
 1. [ARPANET: The Network that Became the Internet](https://www.history.com/topics/inventions/who-invented-the-internet)
 2. [The History of the Internet](https://www.internetsociety.org/internet/history-internet/)
 3. [The Birth of the Internet](https://www.britannica.com/technology/Internet#&gid=2001261457)
