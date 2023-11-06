@@ -8,7 +8,7 @@ type Props = {
 }
 
 /*
-mt-4 w-full rounded-md dark:bg-dark border border-gray-300 dark:border-gray-600 
+mt-4 w-full rounded-md dark:bg-dark border border-gray-300 dark:border-gray-600
 focus:border-primary-300 focus:outline-none focus:ring-0 dark:focus:border-primary-300
 */
 const BlogPage = ({ allPosts }: Props) => {
@@ -38,17 +38,17 @@ const BlogPage = ({ allPosts }: Props) => {
           id="search"
           name="search"
           onChange={handleSearch}
-          className="peer px-2 w-full h-10 bg-transparent rounded-md border focus:border-red-300 focus:outline-none transition-colors"
+          className="peer h-10 w-full rounded-md border bg-transparent px-2 transition-colors focus:border-red-300 focus:outline-none"
           placeholder="Search..."
         />
       </div>
       <section className="mb-40">
         <PostList
           posts={filteredPosts}
-          className="grid grid-cols-3 gap-2 mt-4"
+          className="mt-4 grid grid-cols-3 gap-2"
         />
       </section>
-      <hr className="h-0.5 bg-red border-none" />
+      <hr className="h-0.5 border-none bg-red" />
     </section>
   )
 }

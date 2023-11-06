@@ -24,17 +24,19 @@ type Icon = {
 
 const SocialIcon = (icon: Icon) => {
   const SocialSvg = components[icon.type]
+  const heightClassName = `h-${icon.size}`
+  const widthClassName = `w-${icon.size}`
 
   return (
     <a
-      className="text-sm hover:text-white transition"
+      className="text-sm transition hover:text-white"
       target="_blank"
       rel="noopener noreferrer"
       href={icon.url}
     >
       <span className="sr-only">{icon.type}</span>
       <SocialSvg
-        className={`fill-current hover:fill-white h-${icon.size} w-${icon.size}`}
+        className={`fill-current ${heightClassName} hover:fill-white ${widthClassName}`}
       />
     </a>
   )

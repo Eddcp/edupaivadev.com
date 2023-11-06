@@ -14,7 +14,7 @@ type Props = {
 
 const SocialLinks = ({ className, size }: Props) => (
   <nav>
-    <ul className={`flex justify-between content-start ${className}`}>
+    <ul className={`flex content-start justify-between ${className}`}>
       {links.map((link, i) => {
         const icon: Icon = {
           type: link.label,

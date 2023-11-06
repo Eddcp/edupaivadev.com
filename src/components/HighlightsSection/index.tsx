@@ -30,20 +30,20 @@ const HighlightsSection = ({ posts, tags }: Props) => {
   return (
     <section
       id="highlights"
-      className="grid grid-cols-3 gap-2 mt-40 lg:mt-[20rem]"
+      className="mt-40 grid grid-cols-3 gap-2 lg:mt-[20rem]"
     >
       <article className="col-span-3 lg:col-span-2">
         <h2 className="text-2xl font-bold uppercase">Destaques</h2>
         <PostList
           posts={slicedHighlights}
-          className="grid grid-cols-2 gap-2 mt-4"
+          className="mt-4 grid grid-cols-2 gap-2"
         />
       </article>
       <aside className="hidden lg:block">
         <div className="flex flex-col">
           <div>
             <div className="text-2xl font-bold uppercase">Categorias</div>
-            <ul className="flex flex-wrap gap-6 mt-16">
+            <ul className="mt-16 flex flex-wrap gap-6">
               {categories?.map((category, index) => {
                 const { name } = category
                 const CategorySvg = components[name]
@@ -51,9 +51,9 @@ const HighlightsSection = ({ posts, tags }: Props) => {
                   <li key={index} className="font-antarctican uppercase">
                     <figure>
                       <CategorySvg
-                        className={`border-[#FF0043] border-solid border-2 inline-block fill-current hover:fill-neutral hover:border-neutral h-24 w-24`}
+                        className={`inline-block h-24 w-24 border-2 border-solid border-[#FF0043] fill-current hover:border-neutral hover:fill-neutral`}
                       />
-                      <figcaption className="mt-4 max-w-[5rem] text-sm break-words">
+                      <figcaption className="mt-4 max-w-[5rem] break-words text-sm">
                         {category['label']}
                       </figcaption>
                     </figure>
@@ -64,11 +64,11 @@ const HighlightsSection = ({ posts, tags }: Props) => {
           </div>
           <div className="mt-16">
             <div className="text-2xl font-bold uppercase">Tags</div>
-            <ul className="flex flex-wrap gap-2 mt-8 w-[80%]">
+            <ul className="mt-8 flex w-[80%] flex-wrap gap-2">
               {tags?.map((tag, index) => {
                 return (
                   <li
-                    className="p-2 border border-[#FF0043] border-solid"
+                    className="border border-solid border-[#FF0043] p-2"
                     key={index}
                   >
                     {tag}

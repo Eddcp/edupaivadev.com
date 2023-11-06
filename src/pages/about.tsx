@@ -3,9 +3,9 @@ import Image from 'next/legacy/image'
 
 const AboutPage = () => (
   <>
-    <section className="flex items-center mt-20 mb-40 layout">
-      <div className="grid gap-8 mx-auto max-w-2xl md:grid-cols-6 lg:max-w-[80rem]">
-        <figure className="flex flex-col col-span-2 justify-center items-center">
+    <section className="layout mb-40 mt-20 flex items-center">
+      <div className="mx-auto grid max-w-2xl gap-8 md:grid-cols-6 lg:max-w-[80rem]">
+        <figure className="col-span-2 flex flex-col items-center justify-center">
           <Image
             src="/img/me.jpg"
             className="rounded-full"
@@ -14,7 +14,7 @@ const AboutPage = () => (
             height="300"
           />
         </figure>
-        <div className="flex flex-col col-span-4 items-start">
+        <div className="col-span-4 flex flex-col items-start">
           <h1 className="text-3xl font-bold sm:text-5xl">Sobre mim</h1>
           <p className="mt-10">
             Meu nome é Eduardo Costa de Paiva, trabalho com TI há mais de 5
@@ -48,7 +48,7 @@ const AboutPage = () => (
         </div>
       </div>
     </section>
-    <hr className="h-0.5 bg-red border-none layout" />
+    <hr className="layout h-0.5 border-none bg-red" />
   </>
 )
 

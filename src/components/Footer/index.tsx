@@ -1,16 +1,11 @@
-import ContactForm from 'components/ContactForm'
 import Image from 'next/legacy/image'
-import useWindowSize from '@/hooks/useWindowSize'
-import SizeHelper from '@/utils/sizeHelper'
 import SocialLinks from '../SocialLinks'
 
 const Footer = () => {
-  const { width } = useWindowSize()
-
   return (
     <footer>
-      <div className="mt-10 layout">
-        <div className="grid grid-cols-1 lg:grid-cols-8 lg:mx-auto lg:w-[85%]">
+      <div className="layout mt-10">
+        <div className="grid grid-cols-1 lg:mx-auto lg:w-[85%] lg:grid-cols-8">
           <div className="flex flex-col text-left lg:col-span-4">
             <div className="relative">
               <Image
@@ -40,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="mt-10 h-12 min-h-full leading-[3rem] text-center bg-secondary">
+      <p className="mt-10 h-12 min-h-full bg-secondary text-center leading-[3rem]">
         © 2023 edupaivadev All Rights Reserved
       </p>
     </footer>

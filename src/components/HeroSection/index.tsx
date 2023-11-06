@@ -4,7 +4,7 @@ import SocialLinks from '../SocialLinks'
 const HeroSection = () => (
   <>
     <section className="relative lg:mt-20">
-      <div className="flex flex-col-reverse justify-between lg:flex-row lg:mx-auto lg:w-[85%]">
+      <div className="flex flex-col-reverse justify-between lg:mx-auto lg:w-[85%] lg:flex-row">
         <div className="flex flex-col items-center text-left">
           <h1 className="text-3xl font-bold sm:text-5xl lg:mt-20">
             Desenvolvimento pessoal, profissional e financeiro.
@@ -23,7 +23,7 @@ const HeroSection = () => (
             />
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex items-center justify-center">
           <Image
             src="/img/3dlogo.png"
             alt="logo 3d"
@@ -34,7 +34,7 @@ const HeroSection = () => (
       </div>
       <a
         href="#highlights"
-        className="absolute inset-x-0 bottom-[-5.5em] py-5 mx-auto w-[72px] text-center animate-bounce cursor-pointer lg:bottom-[-11em]"
+        className="absolute inset-x-0 bottom-[-5.5em] mx-auto w-[72px] animate-bounce cursor-pointer py-5 text-center lg:bottom-[-11em]"
       >
         <Image
           src="/img/scroll-down.svg"

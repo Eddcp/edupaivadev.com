@@ -34,14 +34,14 @@ const ContactForm = () => {
             type="text"
             id="name"
             name="name"
-            className="peer w-full h-10 border-2 focus:border-red-500 focus:outline-none transition-colors"
+            className="peer h-10 w-full border-2 transition-colors focus:border-red-500 focus:outline-none"
             required
             placeholder=" "
             onChange={handleChange}
           />
           <label
             htmlFor="name"
-            className="absolute peer-placeholder-shown:top-2 -top-4 peer-focus:-top-4 peer-placeholder-shown:left-2 left-1 peer-focus:left-1 peer-placeholder-shown:text-sm text-xs peer-focus:text-xs peer-placeholder-shown:text-black text-white peer-focus:text-white transition-all duration-200 ease-in-out cursor-text"
+            className="absolute -top-4 left-1 cursor-text text-xs text-white transition-all duration-200 ease-in-out peer-placeholder-shown:left-2 peer-placeholder-shown:top-2 peer-placeholder-shown:text-sm peer-placeholder-shown:text-black peer-focus:-top-4 peer-focus:left-1 peer-focus:text-xs peer-focus:text-white"
           >
             Nome
           </label>
@@ -51,14 +51,14 @@ const ContactForm = () => {
             type="email"
             id="email"
             name="email"
-            className="peer pl-2 w-full h-10 border-2 focus:border-red-500 focus:outline-none transition-colors"
+            className="peer h-10 w-full border-2 pl-2 transition-colors focus:border-red-500 focus:outline-none"
             required
             placeholder=" "
             onChange={handleChange}
           />
           <label
             htmlFor="email"
-            className="absolute peer-placeholder-shown:top-2 -top-4 peer-focus:-top-4 peer-placeholder-shown:left-2 left-1 peer-focus:left-1 peer-placeholder-shown:text-sm text-xs peer-focus:text-xs peer-placeholder-shown:text-black text-white peer-focus:text-white transition-all duration-200 ease-in-out cursor-text"
+            className="absolute -top-4 left-1 cursor-text text-xs text-white transition-all duration-200 ease-in-out peer-placeholder-shown:left-2 peer-placeholder-shown:top-2 peer-placeholder-shown:text-sm peer-placeholder-shown:text-black peer-focus:-top-4 peer-focus:left-1 peer-focus:text-xs peer-focus:text-white"
           >
             Email
           </label>
@@ -67,7 +67,7 @@ const ContactForm = () => {
           <textarea
             id="message"
             name="message"
-            className="peer w-full h-full border-2 focus:border-red-500 focus:outline-none transition-colors"
+            className="peer h-full w-full border-2 transition-colors focus:border-red-500 focus:outline-none"
             rows={4}
             required
             placeholder=" "
@@ -75,7 +75,7 @@ const ContactForm = () => {
           />
           <label
             htmlFor="message"
-            className="absolute peer-placeholder-shown:top-2 -top-4 peer-focus:-top-4 peer-placeholder-shown:left-2 left-1 peer-focus:left-1 peer-placeholder-shown:text-sm text-xs peer-focus:text-xs peer-placeholder-shown:text-black text-white peer-focus:text-white transition-all duration-200 ease-in-out cursor-text"
+            className="absolute -top-4 left-1 cursor-text text-xs text-white transition-all duration-200 ease-in-out peer-placeholder-shown:left-2 peer-placeholder-shown:top-2 peer-placeholder-shown:text-sm peer-placeholder-shown:text-black peer-focus:-top-4 peer-focus:left-1 peer-focus:text-xs peer-focus:text-white"
           >
             Mensagem
           </label>
@@ -83,7 +83,7 @@ const ContactForm = () => {
         <div className="col-span-2 font-antarctican">
           <button
             type="submit"
-            className="w-full h-10 text-base font-semibold text-white uppercase bg-red"
+            className="h-10 w-full bg-red text-base font-semibold uppercase text-white"
           >
             Enviar mensagem
           </button>

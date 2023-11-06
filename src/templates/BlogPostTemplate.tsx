@@ -53,7 +53,7 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
               <div>
                 {CategorySVG !== undefined ? (
                   <CategorySVG
-                    className={`border-[#FF0043] border-solid border-2 inline-block fill-current h-8 w-8`}
+                    className={`inline-block h-8 w-8 border-2 border-solid border-[#FF0043] fill-current`}
                   />
                 ) : (
                   ''
@@ -79,7 +79,7 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
             </div>
             <section>
               <h1 className="font-bold">{post.title}</h1>
-              <div className="flex justify-between mb-5">
+              <div className="mb-5 flex justify-between">
                 <span className="font-antarctican text-sm font-bold uppercase lg:text-lg">
                   {post.author ? `por ${post.author}` : ''}
                 </span>
@@ -87,7 +87,7 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
                   {timeToRead(post.content)}
                 </span>
               </div>
-              <hr className="h-0.5 bg-red border-none" />
+              <hr className="h-0.5 border-none bg-red" />
               <ReactMarkdown
                 components={{
                   code({ className, children }) {
@@ -102,7 +102,7 @@ const BlogPostTemplate = ({ post }: BlogPost) => {
               >
                 {post.content}
               </ReactMarkdown>
-              <hr className="h-0.5 bg-red border-none" />
+              <hr className="h-0.5 border-none bg-red" />
             </section>
           </article>
         </div>

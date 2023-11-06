@@ -26,12 +26,12 @@ const components: Component = {
 const TechSection = () => (
   <section className="mt-10 bg-red lg:mt-28">
     <div className="layout">
-      <div className="grid py-16 lg:grid-cols-12 lg:mx-auto lg:w-[85%]">
-        <div className="flex col-span-3 justify-start items-center text-2xl font-bold uppercase">
+      <div className="grid py-16 lg:mx-auto lg:w-[85%] lg:grid-cols-12">
+        <div className="col-span-3 flex items-center justify-start text-2xl font-bold uppercase">
           Tecnologias
         </div>
         <div className="col-span-9">
-          <ul className="flex flex-row flex-wrap w-full">
+          <ul className="flex w-full flex-row flex-wrap">
             {techStack.map((techItem, index) => {
               const { label } = techItem
               const TechSvg = components[label]
@@ -40,9 +40,9 @@ const TechSection = () => (
                   className="m-2 font-antarctican text-sm uppercase	 sm:justify-items-stretch lg:justify-between"
                   key={index}
                 >
-                  <div className="flex flex-col	justify-center items-center w-24 h-28 text-center bg-primary rounded-md">
+                  <div className="flex h-28	w-24 flex-col items-center justify-center rounded-md bg-primary text-center">
                     {TechSvg !== undefined ? (
-                      <TechSvg className={`block fill-current h-10 w-10`} />
+                      <TechSvg className={`block h-10 w-10 fill-current`} />
                     ) : (
                       ''
                     )}

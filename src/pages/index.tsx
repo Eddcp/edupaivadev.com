@@ -38,7 +38,7 @@ export default function Home({ allPosts, allTags }: Props) {
       <TechSection />
       <section className="bg-secondary">
         <figure className="relative w-full">
-          <div className="absolute top-[50%] left-[50%] text-center translate-x-[-50%] translate-y-[-50%] sm:text-3xl lg:text-4xl">
+          <div className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-center sm:text-3xl lg:text-4xl">
             informação <span className="font-bold">disruptiva</span> e{' '}
             <span className="font-bold">formativa</span>
           </div>
