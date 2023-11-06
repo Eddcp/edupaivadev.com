@@ -19,7 +19,7 @@ export function getPostBySlug(slug: string, fields: string[] = []): Items {
 
   const items: Items = {}
 
-  const dateFormatted = format(new Date(data.date), 'dd/MM/yyyy')
+  const dateFormatted = format(new Date(data.date), 'yyyy-MM-dd')
 
   fields.forEach((field) => {
     if (field === 'slug') {
@@ -44,8 +44,9 @@ export function getPostBySlug(slug: string, fields: string[] = []): Items {
 
 export function getAllPosts(fields: string[] = []): Items[] {
   const slugs = fs.readdirSync(postsDirectory)
-  const posts = slugs
+  return slugs
     .map((slug) => getPostBySlug(slug, fields))
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
-  return posts
+    .sort((post1, post2) =>
+      new Date(post1.date).valueOf() > new Date(post2.date).valueOf() ? -1 : 1
+    )
 }

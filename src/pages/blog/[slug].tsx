@@ -27,7 +27,6 @@ export async function getStaticProps({ params }: Params) {
     'featured_image'
   ])
 
-  console.log(`post ${post.featured_image} `)
   const { content } = post
 
   return {
