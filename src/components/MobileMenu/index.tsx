@@ -41,9 +41,8 @@ const MobileMenu = () => {
         </svg>
       </button>
       <div
-        className={`fixed right-0 top-0 z-10 h-full w-full bg-primary opacity-95 duration-300 ease-in-out dark:bg-gray-800${
-          isOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
+        className={`fixed right-0 top-0 z-10 h-full w-full bg-primary opacity-95 duration-300 ease-in-out dark:bg-gray-800
+        ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
         aria-label="mobile-menu"
       >
         <div className="layout mt-5 flex justify-between">
