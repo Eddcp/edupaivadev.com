@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'Como a internet funciona? Parte-1: O Nascimento da Internet'
+title: 'Como a internet funciona? Parte 1: O Nascimento da Internet'
 author: Eduardo Paiva
 date: 2023-11-06 02:39:00
 tags:
@@ -12,8 +12,6 @@ featured_image:
   src: https://images.unsplash.com/photo-1597733336794-12d05021d510?auto=format&fit=crop&q=80&w=3474&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   alt: Internet
 ---
-
-# O Nascimento da Internet: Quando e Por quê?
 
 Acho que uma das maiores qualidades de um programador/engenheiro de software é a curiosidade. Além do campo técnico, é muito bom que entendamos história e como certas coisas foram criadas.
 
@@ -53,6 +51,6 @@ Em conclusão, o nascimento da internet está profundamente ligado à história 
 1. [Internet History 1962 to 1992](https://www.computerhistory.org/internethistory/)
 2. [The History of the Internet](https://www.internetsociety.org/internet/history-internet/)
 3. [The Birth of the Internet](https://www.britannica.com/technology/Internet#&gid=2001261457)
-4. [﻿A Short History Of The Internet](https://www.scienceandmediamuseum.org.uk/objects-and-stories/short-history-internet)
-5. [T﻿he Story of How the Internet Was Born](https://www.youtube.com/watch?v=gl3cT9JUIl8)
-6. [H﻿ow does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+4. [A Short History Of The Internet](https://www.scienceandmediamuseum.org.uk/objects-and-stories/short-history-internet)
+5. [The Story of How the Internet Was Born](https://www.youtube.com/watch?v=gl3cT9JUIl8)
+6. [How does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
