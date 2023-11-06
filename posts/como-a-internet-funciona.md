@@ -4,7 +4,9 @@ title: "Como a internet funciona? Parte-1: O Nascimento da Internet"
 author: Eduardo Paiva
 date: 2023-11-06 02:39:00
 tags:
-  - ""
+  - tecnologia
+categories:
+  - quebre-a-rotina
 thumbnail: https://images.unsplash.com/photo-1597733336794-12d05021d510?auto=format&fit=crop&q=80&w=3474&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 featured_image:
   src: https://images.unsplash.com/photo-1597733336794-12d05021d510?auto=format&fit=crop&q=80&w=3474&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
@@ -24,7 +26,7 @@ Essas inovações lançaram as bases para o desenvolvimento de redes de computad
 
 O ano era **1957** e o contexto mundial era o da Guerra Fria. Do lado leste do mundo existia a União Soviética que acabara de enviar o Sputnik 1 ao espaço, esse foi o primeiro satélite artificial a ser lançado com sucesso na órbita da Terra. Do lado oeste, o Departamento de defesa dos EUA criava a Agência de Projetos de Investigação Avançada - Advanced Research Projects Agency (ARPA).
 
-N﻿o inicio dos anos **60**, tal departamento iniciou o desenvolvimento de um sistema decentralizado de comunicação com objetivo de que mesmo em um ataque nuclear, a comunicação entre militares e instituições de pesquisa pudesse continuar. O artigo [On Distributed Communication Networks](https://www.rand.org/content/dam/rand/pubs/papers/2005/P2626.pdf) foi publicado em 1962 por Paul Baran, os esforços de vrios cientistas levaram a criação da **ARPANET,** a precursora da internet moderna. 
+N﻿o inicio dos anos **60**, tal departamento iniciou o desenvolvimento de um sistema decentralizado de comunicação com objetivo de que mesmo em um ataque nuclear, a comunicação entre militares e instituições de pesquisa pudesse continuar. O artigo [On Distributed Communication Networks](https://www.rand.org/content/dam/rand/pubs/papers/2005/P2626.pdf) foi publicado em 1962 por Paul Baran, os esforços de vários cientistas levaram a criação da **ARPANET,** a precursora da internet moderna.
 
 Na mesma era, na União Soviética, um brilhante matemático e cientista da computação chamado [Viktor Glushkov](https://aeon.co/essays/how-the-soviets-invented-the-internet-and-why-it-didnt-work) estava fazendo contribuições significativas no campo da cibernética. Seu trabalho estava focado no desenvolvimento de uma rede de computadores em todo o território da União Soviética (*All-State Automated System)*, paralelamente aos esforços dos EUA na criação da ARPANET.
 
