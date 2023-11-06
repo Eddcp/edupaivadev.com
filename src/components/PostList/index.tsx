@@ -3,6 +3,8 @@ import BlogPostItem from 'types/post'
 
 import CycleSvg from '@/../public/img/categories-icons/quebre-o-ciclo.svg'
 import CodeSvg from '@/../public/img/categories-icons/quebre-o-codigo.svg'
+import FightSvg from '@/../public/img/categories-icons/quebre-o-padrao.svg'
+import RoutineSvg from '@/../public/img/categories-icons/quebre-a-rotina.svg'
 
 type Props = {
   posts: BlogPostItem[]
@@ -15,7 +17,9 @@ type Component = {
 
 const components: Component = {
   'quebre-o-ciclo': CycleSvg,
-  'quebre-o-codigo': CodeSvg
+  'quebre-o-codigo': CodeSvg,
+  'quebre-o-padrao': FightSvg,
+  'quebre-a-rotina': RoutineSvg
 }
 
 const PostList = ({ posts, className }: Props) => {
