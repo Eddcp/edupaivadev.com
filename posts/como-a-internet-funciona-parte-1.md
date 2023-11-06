@@ -13,7 +13,7 @@ featured_image:
   alt: Internet
 ---
 
-# O Nascimento da Internet: Quando e Por qu?
+# O Nascimento da Internet: Quando e Por quê?
 
 Acho que uma das maiores qualidades de um programador/engenheiro de software é a curiosidade. Além do campo técnico, é muito bom que entendamos história e como certas coisas foram criadas.
 
