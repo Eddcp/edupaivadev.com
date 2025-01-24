@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="mt-10 h-12 min-h-full bg-secondary text-center leading-[3rem]">
-        © 2023 edupaivadev All Rights Reserved
+        © 2022 - 2025 edupaivadev All Rights Reserved
       </p>
     </footer>
   )
