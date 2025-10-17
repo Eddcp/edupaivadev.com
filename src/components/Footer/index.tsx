@@ -1,7 +1,10 @@
 import Image from 'next/legacy/image'
 import SocialLinks from '../SocialLinks'
+import { useTranslation } from 'next-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation('common')
+
   return (
     <footer>
       <div className="layout mt-10">
@@ -17,9 +20,7 @@ const Footer = () => {
               />
             </div>
             <p className="mt-4">
-              Hub de tecnologia e informação focado em conteúdos formativos e
-              disruptivos. Quebre o código, a fronteira, seus limites e
-              limitações.
+              {t('footer.description')}
             </p>
             <div className="mt-6">
               <SocialLinks size={6} className="w-[80%]" />
@@ -27,16 +28,15 @@ const Footer = () => {
           </div>
           <div className="lg:col-span-4 lg:px-12">
             <p className="mt-12 text-lg font-semibold">
-              Tem alguma sugestão de conteúdo, contribuição ou melhoria que
-              deseja compartilhar com a gente?
+              {t('footer.suggestion')}
             </p>
 
-            <p className="mt-4">Envie um email para contato@edupaivadev.com</p>
+            <p className="mt-4">{t('footer.contact')}</p>
           </div>
         </div>
       </div>
       <p className="mt-10 h-12 min-h-full bg-secondary text-center leading-[3rem]">
-        © 2023 edupaivadev All Rights Reserved
+        {t('footer.copyright')}
       </p>
     </footer>
   )

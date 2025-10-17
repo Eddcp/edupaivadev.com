@@ -1,6 +1,7 @@
 import PostList from 'components/PostList'
 import BlogPostItem from 'types/post'
 import categories from './content'
+import { useTranslation } from 'next-i18next'
 
 import CycleSvg from '@/../public/img/categories-icons/quebre-o-ciclo.svg'
 import CodeSvg from '@/../public/img/categories-icons/quebre-o-codigo.svg'
@@ -26,6 +27,7 @@ const components: Component = {
 
 const MAX_DISPLAY = 4
 const HighlightsSection = ({ posts, tags }: Props) => {
+  const { t } = useTranslation('common')
   const slicedHighlights = posts.slice(0, MAX_DISPLAY)
   return (
     <section
@@ -33,7 +35,7 @@ const HighlightsSection = ({ posts, tags }: Props) => {
       className="mt-40 grid grid-cols-3 gap-2 lg:mt-[20rem]"
     >
       <article className="col-span-3 lg:col-span-2">
-        <h2 className="text-2xl font-bold uppercase">Destaques</h2>
+        <h2 className="text-2xl font-bold uppercase">{t('highlights.title')}</h2>
         <PostList
           posts={slicedHighlights}
           className="mt-4 grid grid-cols-2 gap-2"
@@ -42,7 +44,7 @@ const HighlightsSection = ({ posts, tags }: Props) => {
       <aside className="hidden lg:block">
         <div className="flex flex-col">
           <div>
-            <div className="text-2xl font-bold uppercase">Categorias</div>
+            <div className="text-2xl font-bold uppercase">{t('highlights.categories')}</div>
             <ul className="mt-16 flex flex-wrap gap-6">
               {categories?.map((category, index) => {
                 const { name } = category
@@ -63,7 +65,7 @@ const HighlightsSection = ({ posts, tags }: Props) => {
             </ul>
           </div>
           <div className="mt-16">
-            <div className="text-2xl font-bold uppercase">Tags</div>
+            <div className="text-2xl font-bold uppercase">{t('highlights.tags')}</div>
             <ul className="mt-8 flex w-[80%] flex-wrap gap-2">
               {tags?.map((tag, index) => {
                 return (

@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
 
 import links from './../../utils/navBarLinks'
 
 const Menu = () => {
   const router = useRouter()
+  const { t } = useTranslation('common')
 
   return (
     <div className="hidden lg:block">
@@ -15,7 +17,7 @@ const Menu = () => {
               <Link legacyBehavior href={link.url}>
                 {/* eslint-disable-next-line tailwindcss/no-custom-classname */}
                 <a className={router.pathname === link.url ? 'active' : ''}>
-                  {link.label}
+                  {t(link.labelKey)}
                 </a>
               </Link>
             </li>

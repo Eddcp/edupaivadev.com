@@ -5,6 +5,7 @@ import BlogPostItem from 'types/post'
 import TechSection from '@/components/TechSection'
 import { getAllTags } from '@/lib/tags'
 import { NextSeo } from 'next-seo'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 type Props = {
   allPosts: BlogPostItem[]
@@ -53,7 +54,7 @@ export default function Home({ allPosts, allTags }: Props) {
   )
 }
 
-export const getStaticProps = async () => {
+export const getStaticProps = async ({ locale }) => {
   const allPosts = getAllPosts([
     'title',
     'date',
@@ -67,6 +68,10 @@ export const getStaticProps = async () => {
 
   const allTags = getAllTags()
   return {
-    props: { allPosts, allTags }
+    props: {
+      allPosts,
+      allTags,
+      ...(await serverSideTranslations(locale, ['common']))
+    }
   }
 }

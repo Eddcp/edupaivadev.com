@@ -2,6 +2,8 @@ import PostList from 'components/PostList'
 import { getAllPosts } from 'lib/md-client'
 import BlogPostItem from '@/types/post'
 import { useState } from 'react'
+import { useTranslation } from 'next-i18next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 type Props = {
   allPosts: BlogPostItem[]
@@ -12,6 +14,7 @@ mt-4 w-full rounded-md dark:bg-dark border border-gray-300 dark:border-gray-600
 focus:border-primary-300 focus:outline-none focus:ring-0 dark:focus:border-primary-300
 */
 const BlogPage = ({ allPosts }: Props) => {
+  const { t } = useTranslation('common')
   const [search, setSearch] = useState<string>('')
 
   const searchFilter = (array: BlogPostItem[]): BlogPostItem[] => {
@@ -28,9 +31,9 @@ const BlogPage = ({ allPosts }: Props) => {
 
   return (
     <section className="layout">
-      <h1 className="text-3xl font-bold sm:mt-20 sm:text-5xl">Blog</h1>
+      <h1 className="text-3xl font-bold sm:mt-20 sm:text-5xl">{t('blog.title')}</h1>
       <h2 className="mt-5 text-xl">
-        Pensamentos, ensinamentos e mais algumas coisas.
+        {t('blog.subtitle')}
       </h2>
       <div className="mt-5">
         <input
@@ -39,7 +42,7 @@ const BlogPage = ({ allPosts }: Props) => {
           name="search"
           onChange={handleSearch}
           className="peer h-10 w-full rounded-md border bg-transparent px-2 transition-colors focus:border-red-300 focus:outline-none"
-          placeholder="Search..."
+          placeholder={t('blog.searchPlaceholder')}
         />
       </div>
       <section className="mb-40">
@@ -53,7 +56,7 @@ const BlogPage = ({ allPosts }: Props) => {
   )
 }
 
-export const getStaticProps = async () => {
+export const getStaticProps = async ({ locale }) => {
   const allPosts = getAllPosts([
     'title',
     'date',
@@ -66,7 +69,10 @@ export const getStaticProps = async () => {
   ])
 
   return {
-    props: { allPosts }
+    props: {
+      allPosts,
+      ...(await serverSideTranslations(locale, ['common']))
+    }
   }
 }
 

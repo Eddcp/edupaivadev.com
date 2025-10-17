@@ -2,6 +2,7 @@ import Menu from 'components/Menu'
 import Link from 'next/link'
 import Image from 'next/image'
 import MobileMenu from 'components/MobileMenu'
+import LanguageToggle from 'components/LanguageToggle'
 
 const Header = () => (
   <header className="bg-secondary">
@@ -16,8 +17,11 @@ const Header = () => (
           />
         </a>
       </Link>
-      <Menu />
-      <MobileMenu />
+      <div className="flex items-center space-x-4">
+        <Menu />
+        <LanguageToggle />
+        <MobileMenu />
+      </div>
     </div>
   </header>
 )

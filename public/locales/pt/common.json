@@ -1,0 +1,34 @@
+{
+    "hero": {
+        "title": "Desenvolvimento pessoal, profissional e financeiro.",
+        "description": "Meu nome é Eduardo Paiva e atuo como desenvolvedor há mais de 5 anos. Desde cedo na carreira percebi a ironia e dificuldade da classe de se desenvolver para além do campo técnico. Aqui você encontra informação e formação em tecnologia, cultura, entretenimento, independência financeira e liberdade geográfica.",
+        "scrollDown": "ícone de scroll down"
+    },
+    "navigation": {
+        "home": "Início",
+        "blog": "Blog",
+        "about": "Sobre Mim"
+    },
+    "highlights": {
+        "title": "Destaques",
+        "categories": "Categorias",
+        "tags": "Tags"
+    },
+    "footer": {
+        "description": "Hub de tecnologia e informação focado em conteúdos formativos e disruptivos. Quebre o código, a fronteira, seus limites e limitações.",
+        "suggestion": "Tem alguma sugestão de conteúdo, contribuição ou melhoria que deseja compartilhar com a gente?",
+        "contact": "Envie um email para contato@edupaivadev.com",
+        "copyright": "© 2023 edupaivadev All Rights Reserved"
+    },
+    "blog": {
+        "by": "por",
+        "readTime": "min de leitura",
+        "title": "Blog",
+        "subtitle": "Pensamentos, ensinamentos e mais algumas coisas.",
+        "searchPlaceholder": "Pesquisar..."
+    },
+    "language": {
+        "portuguese": "Português",
+        "english": "English"
+    }
+}

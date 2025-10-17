@@ -11,6 +11,7 @@ import '@/styles/markdown.css'
 import NextNProgress from 'nextjs-progressbar'
 import Analytics from '@/components/Analytics'
 import SEO from '@/../next-seo.config'
+import { appWithTranslation } from 'next-i18next'
 
 import { DefaultSeo } from 'next-seo'
 
@@ -59,4 +60,4 @@ function App({ Component, pageProps }: AppProps) {
   )
 }
 
-export default App
+export default appWithTranslation(App)

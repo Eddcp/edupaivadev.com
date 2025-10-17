@@ -1,14 +1,14 @@
 const navBarLinks = [
   {
-    label: 'Home',
+    labelKey: 'navigation.home',
     url: '/'
   },
   {
-    label: 'Sobre Mim',
+    labelKey: 'navigation.about',
     url: '/about'
   },
   {
-    label: 'Blog',
+    labelKey: 'navigation.blog',
     url: '/blog'
   }
 ]

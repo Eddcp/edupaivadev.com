@@ -1,0 +1,34 @@
+{
+    "hero": {
+        "title": "Personal, professional and financial development.",
+        "description": "My name is Eduardo Paiva and I've been working as a developer for over 5 years. Early in my career I realized the irony and difficulty of the class to develop beyond the technical field. Here you find information and training in technology, culture, entertainment, financial independence and geographical freedom.",
+        "scrollDown": "scroll down icon"
+    },
+    "navigation": {
+        "home": "Home",
+        "blog": "Blog",
+        "about": "About Me"
+    },
+    "highlights": {
+        "title": "Highlights",
+        "categories": "Categories",
+        "tags": "Tags"
+    },
+    "footer": {
+        "description": "Technology and information hub focused on formative and disruptive content. Break the code, the frontier, your limits and limitations.",
+        "suggestion": "Do you have any content suggestions, contributions or improvements you'd like to share with us?",
+        "contact": "Send an email to contato@edupaivadev.com",
+        "copyright": "© 2023 edupaivadev All Rights Reserved"
+    },
+    "blog": {
+        "by": "by",
+        "readTime": "min read",
+        "title": "Blog",
+        "subtitle": "Thoughts, teachings and some other things.",
+        "searchPlaceholder": "Search..."
+    },
+    "language": {
+        "portuguese": "Português",
+        "english": "English"
+    }
+}
