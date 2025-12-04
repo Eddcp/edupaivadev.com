@@ -13045,7 +13045,7 @@ __metadata:
     next-seo: "npm:^5.4.0"
     next-sitemap: "npm:^2.5.25"
     nextjs-progressbar: "npm:^0.0.14"
-    nodemailer: "npm:^6.7.5"
+    nodemailer: "npm:^7.0.11"
     postcss: "npm:^8.4.12"
     prettier: "npm:2.5.1"
     react: "npm:^18.2.0"
@@ -13185,10 +13185,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemailer@npm:^6.7.5":
-  version: 6.9.7
-  resolution: "nodemailer@npm:6.9.7"
-  checksum: 5ea7f781782361890d4492dc2412496e89fb04c498814e6c4fe7b168a27d7491a00f725cf90c26768907506e8afb76e8cfe6f6300def9940bc7f7e323405eaa6
+"nodemailer@npm:^7.0.11":
+  version: 7.0.11
+  resolution: "nodemailer@npm:7.0.11"
+  checksum: 208f108fdb4c5dd0e3a2f013578d53dad505cf1b9c7a084f6d22fc9d6f3912daafb4a23793ca568ff848afc35f15f4eb24382d3f6f9fb8ede4a8410d4ca63618
   languageName: node
   linkType: hard
 
