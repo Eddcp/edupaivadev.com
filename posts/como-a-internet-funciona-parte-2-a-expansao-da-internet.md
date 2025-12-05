@@ -12,6 +12,9 @@ featured_image:
   src: https://images.unsplash.com/photo-1521106047354-5a5b85e819ee?q=80&w=2346&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   alt: Cabos de rede conectados a um switch
 ---
+
+Já faz mais de 2 anos que fiz a última postagem no blog, mas gostaria de dar sequência nessa saga de textos 😂
+
 Na primeira parte desta série, exploramos as origens da internet, desde o telégrafo até a ARPANET e a criação da World Wide Web por Tim Berners-Lee. Agora, vamos mergulhar na **fase de popularização** e entender o **mecanismo de acesso** que permitiu que essa rede restrita a militares e cientistas se tornasse parte do dia a dia de bilhões de pessoas
 
 ## A Popularização dos Provedores de Internet
@@ -73,13 +76,11 @@ Na próxima parte, vamos explorar **como a internet funciona por trás dos basti
 ### **História de Navegadores e da Web**
 
 * [﻿*The History of Web* – Web Foundation﻿](https://webfoundation.org/about/vision/history-of-the-web/)
-* [Interface Experience - Netscape Navigator 1994]
-  (https://interface-experience.org/objects/netscape-navigator/)
+* [Interface Experience - Netscape Navigator 1994](https://interface-experience.org/objects/netscape-navigator/)
 
 ### **Linha do Tempo da Internet Comercial**
 
-* [*Commercialization of the Internet* – Internet History]
-  (https://internethistory.org/commercialization/)
+* [*Commercialization of the Internet* – Internet History](https://internethistory.org/commercialization/)
 * [*Historical Internet Timeline* – Pew Research](https://www.pewresearch.org/internet/2014/03/11/world-wide-web-timeline/)
 * [*Grokipedia* - Commercialization of the Internet](https://grokipedia.com/page/Commercialization_of_the_Internet) 
 
