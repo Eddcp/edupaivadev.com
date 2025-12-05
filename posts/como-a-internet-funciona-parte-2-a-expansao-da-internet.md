@@ -44,7 +44,7 @@ Foi também a década dos **chats e e-mails em massa**. O **ICQ** (1996) e o **M
 
 A chamada **Web 1.0** (anos 90 e início dos 2000) era formada principalmente por páginas estáticas, que funcionavam como vitrines digitais. O usuário consumia conteúdo, mas raramente interagia.
 
-A virada começou a acontecer no fim dos anos 90. Em **1999**, a especialista Darcy DiNucci usou pela primeira vez o termo **Web 2.0**, que só ganharia fama em **2004**, durante o primeiro Web 2.0 Conference, organizado por Tim O’Reilly. O termo não indicava uma mudança técnica específica, mas sim uma **nova maneira de usar a web:** mais **participativa, colaborativa e social**
+A virada começou a acontecer no fim dos anos 90. Em **1999**, a especialista [Darcy DiNucci usou pela primeira vez o termo **Web 2.0**](https://www.webdesignmuseum.org/web-design-history/web-2-0-1999), que só ganharia fama em **2004**, durante a primeira Web 2.0 Conference, organizada por Tim O’Reilly. O termo não indicava uma mudança técnica específica, mas sim uma  **nova maneira de usar a web:** mais **participativa, colaborativa e social**
 
 Plataformas como **Orkut, Facebook, YouTube, Twitter e Wikipedia** passaram a permitir que qualquer pessoa criasse conteúdo, comentasse, compartilhasse e interagisse com outras pessoas — algo impensável na Web 1.0.
 
@@ -59,38 +59,32 @@ Essa revolução só foi possível graças à evolução do **JavaScript** e ao 
 
 Frameworks de JavaScript da época (como jQuery) aceleraram essa transformação e ajudaram a consolidar a Web 2.0 como uma web **interativa e viva**, construída tanto por empresas quanto pelos próprios usuários
 
-
-
 ## Expansão Global e Inclusão Digital
 
 Enquanto países desenvolvidos expandiam sua infraestrutura de rede, outras regiões do mundo ainda enfrentavam desafios de conectividade. Iniciativas globais de inclusão digital buscaram reduzir a desigualdade no acesso à internet. O celular, especialmente com o avanço da tecnologia **3G e 4G**, foi o principal agente de democratização, levando a internet a milhões de pessoas que nunca tiveram um computador em casa.
 
-## **Referências e Links Úteis**
+## Conclusão
+
+A expansão da internet foi marcada por uma mistura de avanços tecnológicos, queda de barreiras comerciais e uma mudança cultural profunda na forma como nos comunicamos. Se na primeira parte vimos o nascimento da rede, nesta entendemos sua disseminação.\
+Na próxima parte, vamos explorar **como a internet funciona por trás dos bastidores**: protocolos, servidores, cabos submarinos e toda a infraestrutura invisível que torna possível navegar, assistir vídeos e conversar online em questão de segundos
+
+## Referências e Links Úteis
 
 ### **História de Navegadores e da Web**
 
-* *The History of Web Browsers* – Web Foundation\
-  <https://webfoundation.org/about/vision/history-of-the-web/>
-* *Mosaic and the First Browsers* – Computer History Museum\
-  [https://computerhistory.org/blog/mosaic-web-browser-25/](<>)
-* *Netscape Navigator History* – Britannica\
-  <https://www.britannica.com/technology/Netscape-Navigator>
+* [﻿*The History of Web* – Web Foundation﻿](https://webfoundation.org/about/vision/history-of-the-web/)
+* [Interface Experience - Netscape Navigator 1994]
+  (https://interface-experience.org/objects/netscape-navigator/)
 
 ### **Linha do Tempo da Internet Comercial**
 
-* *Commercialization of the Internet* – Internet Society (ISOC)\
-  [https://www.internetsociety.org/internet/history-internet/commercialization-internet/](<>)
-* *Historical Internet Timeline* – Pew Research\
-  <https://www.pewresearch.org/internet/2014/03/11/world-wide-web-timeline/>
+* [*Commercialization of the Internet* – Internet History]
+  (https://internethistory.org/commercialization/)
+* [*Historical Internet Timeline* – Pew Research](https://www.pewresearch.org/internet/2014/03/11/world-wide-web-timeline/)
+* [*Grokipedia* - Commercialization of the Internet](https://grokipedia.com/page/Commercialization_of_the_Internet) 
+
 
 ### **Web 1.0 vs Web 2.0**
 
-* *What is Web 2.0?* – O’Reilly Media (artigo clássico de 2005)\
-  <https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html>
-* *Web 1.0, Web 2.0 & Web 3.0 Explained* – Stanford/Computer Science Outreach\
-  [https://cs.stanford.edu/people/eroberts/cs181/projects/2010-11/Web3/](<>)
-
-### **Como a Internet se Popularizou**
-
-* *How the Internet Became Mainstream* – The Atlantic\
-  [https://www.theatlantic.com/technology/archive/2019/10/how-internet-became-mainstream/599575/](<>)
+* [*What is Web 2.0?* – O’Reilly Media (artigo clássico de 2005)](https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html)
+* [Difference Between Web 1.0, Web 2.0, and Web 3.0](https://www.geeksforgeeks.org/blogs/web-1-0-web-2-0-and-web-3-0-with-their-difference/)
