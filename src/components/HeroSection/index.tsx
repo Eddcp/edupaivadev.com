@@ -10,7 +10,7 @@ const HeroSection = () => (
             Desenvolvimento pessoal, profissional e financeiro.
           </h1>
           <p className="mt-6 text-base text-white sm:text-lg">
-            Meu nome é Eduardo Paiva e atuo como desenvolvedor há mais de 5
+            Meu nome é Eduardo Paiva e atuo como desenvolvedor há mais de 8
             anos. Desde cedo na carreira percebi a ironia e dificuldade da
             classe de se desenvolver para além do campo técnico. Aqui você
             encontra informação e formação em tecnologia, cultura,

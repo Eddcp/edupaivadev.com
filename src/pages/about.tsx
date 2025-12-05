@@ -17,7 +17,7 @@ const AboutPage = () => (
         <div className="col-span-4 flex flex-col items-start">
           <h1 className="text-3xl font-bold sm:text-5xl">Sobre mim</h1>
           <p className="mt-10">
-            Meu nome é Eduardo Costa de Paiva, trabalho com TI há mais de 5
+            Meu nome é Eduardo Costa de Paiva, trabalho com TI há mais de 8
             anos, nesse tempo pude trabalhar tanto com tecnologias{' '}
             <span className="font-bold">frontend</span> web como tecnologias{' '}
             <span className="font-bold">backend</span>. Dentre essas estão:
