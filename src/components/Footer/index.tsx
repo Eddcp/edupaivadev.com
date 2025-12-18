@@ -1,5 +1,6 @@
 import Image from 'next/legacy/image'
 import SocialLinks from '../SocialLinks'
+import BuyMeACoffee from '../BuyMeACoffee'
 
 const Footer = () => {
   return (
@@ -23,6 +24,9 @@ const Footer = () => {
             </p>
             <div className="mt-6">
               <SocialLinks size={6} className="w-[80%]" />
+            </div>
+            <div className="mt-4">
+              <BuyMeACoffee username="edupaivadev" />
             </div>
           </div>
           <div className="lg:col-span-4 lg:px-12">

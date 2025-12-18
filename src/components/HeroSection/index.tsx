@@ -1,5 +1,6 @@
 import Image from 'next/legacy/image'
 import SocialLinks from '../SocialLinks'
+import BuyMeACoffee from '../BuyMeACoffee'
 
 const HeroSection = () => (
   <>
@@ -21,6 +22,9 @@ const HeroSection = () => (
               className="sm:w-[40%] lg:w-[60%] xl:w-[40%]"
               size={10}
             />
+            <div className="mt-6">
+              <BuyMeACoffee username="edupaivadev" />
+            </div>
           </div>
         </div>
         <div className="flex items-center justify-center">
