@@ -33,7 +33,7 @@
     "next-seo": "^5.4.0",
     "next-sitemap": "^2.5.25",
     "nextjs-progressbar": "^0.0.14",
-    "nodemailer": "^6.7.5",
+    "nodemailer": "^7.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.3",
