@@ -9,7 +9,10 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   rootDir: '.',
   modulePaths: [compilerOptions.baseUrl], // <-- This will be set to 'baseUrl' value
-  moduleNameMapper: pathsToModuleNameMapper(
-    compilerOptions.paths /*, { prefix: '<rootDir>/' } */
-  )
+  moduleNameMapper: {
+    '\\.svg$': '<rootDir>/__mocks__/svgMock.js',
+    ...pathsToModuleNameMapper(
+      compilerOptions.paths /*, { prefix: '<rootDir>/' } */
+    )
+  }
 }
