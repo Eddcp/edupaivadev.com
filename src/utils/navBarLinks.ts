@@ -10,6 +10,10 @@ const navBarLinks = [
   {
     label: 'Blog',
     url: '/blog'
+  },
+  {
+    label: 'Livros',
+    url: '/livros'
   }
 ]
 

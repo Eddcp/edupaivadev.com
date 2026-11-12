@@ -16,7 +16,8 @@ jest.mock('next/router', () => ({
 const links = [
   { label: 'Home', url: '/' },
   { label: 'Sobre Mim', url: '/about' },
-  { label: 'Blog', url: '/blog' }
+  { label: 'Blog', url: '/blog' },
+  { label: 'Livros', url: '/livros' }
 ]
 
 describe('', () => {
