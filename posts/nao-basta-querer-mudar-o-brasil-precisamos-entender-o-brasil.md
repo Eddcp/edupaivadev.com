@@ -57,7 +57,7 @@ Não espero que todo mundo pense como eu. Mas acredito que existe uma diferença
 
 Não acredito que a resposta pra insatisfação da classe trabalhadora esteja em simplesmente trocar um nome por outro na Presidência. A gente precisa olhar pra formação histórica do Brasil, entender como chegamos até aqui e discutir que tipo de país queremos construir.
 
-Tenho lido **O Povo Brasileiro**, do Darcy Ribeiro, e essa leitura tem me feito pensar muito em como a nossa formação histórica continua presente hoje. A escravidão, a concentração de terras, a desigualdade, a exploração do trabalho e a forma como nossas instituições foram construídas não são só capítulos encerrados nos livros de história. São coisas que ajudam a explicar as estruturas que ainda enfrentamos.
+Tenho lido [**O Povo Brasileiro**](https://www.amazon.com.br/dp/8526022253?tag=edupaivadev-20), do Darcy Ribeiro, e essa leitura tem me feito pensar muito em como a nossa formação histórica continua presente hoje. A escravidão, a concentração de terras, a desigualdade, a exploração do trabalho e a forma como nossas instituições foram construídas não são só capítulos encerrados nos livros de história. São coisas que ajudam a explicar as estruturas que ainda enfrentamos.
 
 Também precisamos discutir o modelo econômico brasileiro, nossa estrutura produtiva, a dependência de commodities, a concentração de renda, a educação e a nossa capacidade de desenvolver tecnologia e indústria (e aqui o lado dev fala alto).
 
@@ -101,10 +101,12 @@ E prometo que a parte 3 da história da internet vai sair 😂
 
 ## Referências e Leituras
 
-- **O Povo Brasileiro** – Darcy Ribeiro
+- [**O Povo Brasileiro** – Darcy Ribeiro](https://www.amazon.com.br/dp/8526022253?tag=edupaivadev-20)
 - ["Tenho amigos em todos os poderes", diz Vorcaro a PF](https://www.bbc.com/portuguese/articles/c62vx56mjj4o)
 - [Fundação Getulio Vargas - Leonel Brizola](https://cpdoc.fgv.br/biografias/leonel-brizola)
 
 ---
 
 Foto de capa: Samuel Costa Melo / [Unsplash](https://unsplash.com)
+
+*Como associado da Amazon, recebo uma pequena comissão por compras feitas pelos links deste post, sem custo extra pra você.*
