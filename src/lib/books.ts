@@ -46,7 +46,6 @@ export const books: Book[] = [
     author: 'Karl Marx e Friedrich Engels',
     category: 'Política e Sociedade',
     asin: '6555480181',
-    cover: '/img/livros/manifesto-comunista.jpg',
     description:
       'Texto curto e fundamental pra entender luta de classes e boa parte do debate político dos últimos 170 anos.'
   },
@@ -76,7 +75,6 @@ export const books: Book[] = [
     author: 'Gene Kim, Kevin Behr e George Spafford',
     category: 'Tecnologia',
     asin: '8550814067',
-    cover: '/img/livros/o-projeto-fenix.jpg',
     description:
       'Um romance sobre TI, DevOps e como fazer o negócio andar, que lembra muito o dia a dia de qualquer empresa.'
   }
