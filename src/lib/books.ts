@@ -45,8 +45,7 @@ export const books: Book[] = [
     title: 'Manifesto Comunista',
     author: 'Karl Marx e Friedrich Engels',
     category: 'Política e Sociedade',
-    asin: '8585934239',
-    cover: '/img/livros/manifesto-comunista.jpg',
+    asin: '6555480181',
     description:
       'Texto curto e fundamental pra entender luta de classes e boa parte do debate político dos últimos 170 anos.'
   },
