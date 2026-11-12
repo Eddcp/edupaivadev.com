@@ -11,7 +11,7 @@ const BookCard = ({ book }: Props) => {
   const url = getAffiliateUrl(book.asin)
 
   return (
-    <article className="flex h-full flex-col">
+    <article className="flex h-full flex-col lg:max-w-[240px]">
       <a
         href={url}
         target="_blank"
