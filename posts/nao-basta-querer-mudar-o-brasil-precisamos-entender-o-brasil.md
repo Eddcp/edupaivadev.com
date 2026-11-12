@@ -109,4 +109,4 @@ E prometo que a parte 3 da história da internet vai sair 😂
 
 Foto de capa: Samuel Costa Melo / [Unsplash](https://unsplash.com)
 
-*Como associado da Amazon, recebo uma pequena comissão por compras feitas pelos links deste post, sem custo extra pra você.*
+*Como Associado da Amazon, eu ganho com compras qualificadas. Os links não têm nenhum custo extra pra você. Se os links começarem a gerar vendas, vou fazer a prestação de contas no [Instagram](https://www.instagram.com/edupaivadev) e doar parte do valor pra causas sociais.*

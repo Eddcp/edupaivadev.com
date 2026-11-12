@@ -74,10 +74,25 @@ const BooksPage = () => {
           onPageChange={handlePageChange}
         />
 
-        <p className="mt-16 text-sm italic opacity-80">
-          Como associado da Amazon, recebo uma pequena comissão por compras
-          feitas pelos links desta página, sem custo extra pra você.
-        </p>
+        <div className="mt-16 space-y-2 text-sm italic opacity-80">
+          <p>
+            Como Associado da Amazon, eu ganho com compras qualificadas. Os
+            links não têm nenhum custo extra pra você.
+          </p>
+          <p>
+            Se essa página começar a gerar vendas, vou fazer a prestação de
+            contas no{' '}
+            <a
+              href="https://www.instagram.com/edupaivadev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Instagram
+            </a>{' '}
+            e doar parte do valor pra causas sociais.
+          </p>
+        </div>
       </section>
       <hr className="layout h-0.5 border-none bg-red" />
     </>
