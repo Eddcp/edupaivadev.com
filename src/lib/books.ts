@@ -76,6 +76,7 @@ export const books: Book[] = [
     author: 'Gene Kim, Kevin Behr e George Spafford',
     category: 'Tecnologia',
     asin: '8550814067',
+    cover: '/img/livros/o-projeto-fenix.jpg',
     description:
       'Um romance sobre TI, DevOps e como fazer o negócio andar, que lembra muito o dia a dia de qualquer empresa.'
   }
